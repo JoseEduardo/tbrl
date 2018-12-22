@@ -1,0 +1,1653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spawns>
+  <spawn centerx="372" centery="6341" centerz="2" radius="1">
+    <npc name="Chief Grarkharok" x="-1" y="0" z="2" spawntime="61"/>
+  </spawn>
+  <spawn centerx="331" centery="6371" centerz="3" radius="3">
+    <npc name="Pino" x="2" y="-1" z="3" spawntime="60"/>
+  </spawn>
+  <spawn centerx="493" centery="6179" centerz="4" radius="3">
+    <monster name="dark magician" x="-3" y="-1" z="4" spawntime="60"/>
+    <monster name="dark apprentice" x="3" y="-1" z="4" spawntime="60"/>
+    <monster name="dark apprentice" x="1" y="3" z="4" spawntime="60"/>
+  </spawn>
+  <spawn centerx="545" centery="6288" centerz="4" radius="2">
+    <monster name="Orc Spearman" x="-2" y="0" z="4" spawntime="60"/>
+    <monster name="Orc Spearman" x="1" y="0" z="4" spawntime="60"/>
+    <monster name="Orc Warrior" x="0" y="1" z="4" spawntime="60"/>
+    <monster name="Orc Spearman" x="-1" y="2" z="4" spawntime="60"/>
+  </spawn>
+  <spawn centerx="545" centery="6297" centerz="4" radius="2">
+    <monster name="Orc Spearman" x="-1" y="-1" z="4" spawntime="60"/>
+    <monster name="Orc Spearman" x="0" y="-1" z="4" spawntime="60"/>
+    <monster name="Orc Spearman" x="0" y="1" z="4" spawntime="60"/>
+  </spawn>
+  <spawn centerx="398" centery="6413" centerz="4" radius="1">
+    <monster name="Rat" x="1" y="0" z="4" spawntime="50"/>
+  </spawn>
+  <spawn centerx="402" centery="6413" centerz="4" radius="1">
+    <monster name="Snake" x="-1" y="0" z="4" spawntime="50"/>
+  </spawn>
+  <spawn centerx="397" centery="6425" centerz="4" radius="1">
+    <npc name="Thomas" x="0" y="1" z="4" spawntime="61"/>
+  </spawn>
+  <spawn centerx="424" centery="6433" centerz="4" radius="1">
+    <npc name="Lailene" x="-1" y="0" z="4" spawntime="61"/>
+  </spawn>
+  <spawn centerx="408" centery="6436" centerz="4" radius="2">
+    <npc name="Zoltan" x="-1" y="-1" z="4" spawntime="61"/>
+  </spawn>
+  <spawn centerx="492" centery="6180" centerz="5" radius="3">
+    <monster name="Mad Scientist" x="3" y="-1" z="5" spawntime="60"/>
+    <monster name="dark magician" x="0" y="1" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="538" centery="6182" centerz="5" radius="1">
+    <monster name="Efreet" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="379" centery="6183" centerz="5" radius="2">
+    <monster name="Acid Blob" x="1" y="1" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="540" centery="6184" centerz="5" radius="1">
+    <monster name="Green Djinn" x="1" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="535" centery="6188" centerz="5" radius="1">
+    <monster name="Green Djinn" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="513" centery="6195" centerz="5" radius="3">
+    <monster name="dark apprentice" x="-2" y="-1" z="5" spawntime="60"/>
+    <monster name="dark apprentice" x="2" y="0" z="5" spawntime="60"/>
+    <monster name="dark apprentice" x="0" y="2" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="513" centery="6204" centerz="5" radius="3">
+    <monster name="dark apprentice" x="2" y="-2" z="5" spawntime="60"/>
+    <monster name="dark apprentice" x="-1" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="434" centery="6284" centerz="5" radius="1">
+    <monster name="Chuckles" x="1" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="545" centery="6288" centerz="5" radius="2">
+    <monster name="Orc Warrior" x="-1" y="1" z="5" spawntime="60"/>
+    <monster name="Orc Warrior" x="1" y="1" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="592" centery="6295" centerz="5" radius="3">
+    <monster name="Orc Warrior" x="1" y="-2" z="5" spawntime="60"/>
+    <monster name="Orc Leader" x="-2" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="545" centery="6297" centerz="5" radius="2">
+    <monster name="Orc" x="-1" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="384" centery="6300" centerz="5" radius="1">
+    <monster name="Orc Berserker" x="1" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="366" centery="6311" centerz="5" radius="1">
+    <monster name="Orc Warlord" x="0" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="376" centery="6315" centerz="5" radius="1">
+    <monster name="Orc Berserker" x="1" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="464" centery="6327" centerz="5" radius="3">
+    <monster name="Karith" x="0" y="2" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="340" centery="6345" centerz="5" radius="1">
+    <monster name="Wyvern" x="-1" y="-1" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="371" centery="6346" centerz="5" radius="1">
+    <monster name="Wyvern" x="1" y="1" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="337" centery="6350" centerz="5" radius="1">
+    <monster name="Wyvern" x="0" y="1" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="354" centery="6351" centerz="5" radius="1">
+    <monster name="Wyvern" x="0" y="0" z="5" spawntime="120"/>
+  </spawn>
+  <spawn centerx="374" centery="6352" centerz="5" radius="1">
+    <monster name="Wyvern" x="0" y="1" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="343" centery="6353" centerz="5" radius="1">
+    <monster name="Wyvern" x="0" y="1" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="366" centery="6354" centerz="5" radius="1">
+    <monster name="Wyvern" x="-1" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="374" centery="6361" centerz="5" radius="1">
+    <monster name="Wyvern" x="1" y="-1" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="629" centery="6369" centerz="5" radius="3">
+    <npc name="Miles, The Guard" x="-1" y="1" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="394" centery="6428" centerz="5" radius="1">
+    <npc name="Luna" x="1" y="0" z="5" spawntime="61"/>
+  </spawn>
+  <spawn centerx="409" centery="6436" centerz="5" radius="2">
+    <npc name="Gundralph" x="-1" y="0" z="5" spawntime="61"/>
+  </spawn>
+  <spawn centerx="422" centery="6436" centerz="5" radius="2">
+    <npc name="Fiona" x="0" y="-2" z="5" spawntime="61"/>
+  </spawn>
+  <spawn centerx="257" centery="1761" centerz="6" radius="1">
+    <npc name="Black Bert" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="279" centery="1781" centerz="6" radius="2">
+    <npc name="Varkhal" x="-1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="262" centery="1800" centerz="6" radius="3">
+    <npc name="Galuna" x="-1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="492" centery="6173" centerz="6" radius="3">
+    <monster name="Mad Scientist" x="1" y="3" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="384" centery="6176" centerz="6" radius="3">
+    <monster name="Mutated Human" x="1" y="-2" z="6" spawntime="60"/>
+    <monster name="Mercury Blob" x="0" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="538" centery="6176" centerz="6" radius="1">
+    <monster name="Green Djinn" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="541" centery="6178" centerz="6" radius="1">
+    <monster name="Green Djinn" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="531" centery="6179" centerz="6" radius="1">
+    <monster name="Green Djinn" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="360" centery="6180" centerz="6" radius="2">
+    <monster name="Mutated Human" x="2" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="492" centery="6180" centerz="6" radius="3">
+    <monster name="dark magician" x="-2" y="1" z="6" spawntime="60"/>
+    <monster name="Mad Scientist" x="1" y="3" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="379" centery="6185" centerz="6" radius="3">
+    <monster name="Mutated Human" x="0" y="-3" z="6" spawntime="60"/>
+    <monster name="Mutated Human" x="0" y="2" z="6" spawntime="60"/>
+    <monster name="Mercury Blob" x="3" y="3" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="533" centery="6185" centerz="6" radius="1">
+    <monster name="Green Djinn" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="540" centery="6187" centerz="6" radius="1">
+    <monster name="Green Djinn" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="360" centery="6188" centerz="6" radius="4">
+    <monster name="Mutated Human" x="3" y="-2" z="6" spawntime="60"/>
+    <monster name="Mutated Human" x="2" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="501" centery="6190" centerz="6" radius="3">
+    <monster name="dark magician" x="1" y="-2" z="6" spawntime="60"/>
+    <monster name="dark magician" x="-3" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="390" centery="6194" centerz="6" radius="4">
+    <monster name="Mutated Human" x="0" y="-2" z="6" spawntime="60"/>
+    <monster name="Mercury Blob" x="-1" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="513" centery="6197" centerz="6" radius="3">
+    <monster name="dark apprentice" x="-2" y="-1" z="6" spawntime="60"/>
+    <monster name="dark magician" x="2" y="-1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="370" centery="6198" centerz="6" radius="3">
+    <monster name="Mutated Human" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="513" centery="6205" centerz="6" radius="3">
+    <monster name="dark magician" x="-1" y="0" z="6" spawntime="60"/>
+    <monster name="dark apprentice" x="2" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="445" centery="6236" centerz="6" radius="5">
+    <monster name="Yalahari" x="2" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="644" centery="6238" centerz="6" radius="3">
+    <monster name="Orc Shaman" x="-1" y="-2" z="6" spawntime="60"/>
+    <monster name="Orc Leader" x="-2" y="1" z="6" spawntime="60"/>
+    <monster name="War Wolf" x="3" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="365" centery="6239" centerz="6" radius="2">
+    <monster name="Massive Earth Elemental" x="0" y="-1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="457" centery="6239" centerz="6" radius="5">
+    <monster name="Yalahari" x="-2" y="0" z="6" spawntime="60"/>
+    <monster name="Yalahari" x="2" y="3" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="430" centery="6241" centerz="6" radius="5">
+    <monster name="Yalahari" x="4" y="0" z="6" spawntime="60"/>
+    <monster name="Yalahari" x="-2" y="3" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="637" centery="6247" centerz="6" radius="4">
+    <monster name="Orc Berserker" x="-4" y="-4" z="6" spawntime="60"/>
+    <monster name="War Wolf" x="2" y="-3" z="6" spawntime="60"/>
+    <monster name="War Wolf" x="0" y="-1" z="6" spawntime="60"/>
+    <monster name="Orc Berserker" x="-2" y="2" z="6" spawntime="60"/>
+    <monster name="War Wolf" x="0" y="2" z="6" spawntime="60"/>
+    <monster name="Orc Berserker" x="2" y="3" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="646" centery="6247" centerz="6" radius="3">
+    <monster name="War Wolf" x="-1" y="-2" z="6" spawntime="60"/>
+    <monster name="Orc Leader" x="-3" y="-1" z="6" spawntime="60"/>
+    <monster name="War Wolf" x="-2" y="-1" z="6" spawntime="60"/>
+    <monster name="War Wolf" x="-3" y="2" z="6" spawntime="60"/>
+    <monster name="War Wolf" x="0" y="3" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="627" centery="6249" centerz="6" radius="2">
+    <monster name="Orc Shaman" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="422" centery="6252" centerz="6" radius="1">
+    <monster name="Yalahari" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="427" centery="6253" centerz="6" radius="5">
+    <monster name="Yalahari" x="1" y="-4" z="6" spawntime="60"/>
+    <monster name="Yalahari" x="2" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="465" centery="6254" centerz="6" radius="5">
+    <monster name="Yalahari" x="-2" y="-3" z="6" spawntime="60"/>
+    <monster name="Yalahari" x="-3" y="0" z="6" spawntime="60"/>
+    <monster name="Yalahari" x="0" y="5" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="366" centery="6259" centerz="6" radius="2">
+    <monster name="Hydra" x="1" y="-1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="623" centery="6261" centerz="6" radius="2">
+    <monster name="Orc Berserker" x="-2" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="647" centery="6263" centerz="6" radius="3">
+    <monster name="Orc Shaman" x="-1" y="-2" z="6" spawntime="60"/>
+    <monster name="Orc Shaman" x="1" y="0" z="6" spawntime="60"/>
+    <monster name="Orc Leader" x="2" y="3" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="436" centery="6265" centerz="6" radius="5">
+    <monster name="Yalahari" x="-1" y="-1" z="6" spawntime="60"/>
+    <monster name="Yalahari" x="2" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="455" centery="6267" centerz="6" radius="5">
+    <monster name="Yalahari" x="3" y="-2" z="6" spawntime="60"/>
+    <monster name="Yalahari" x="4" y="-1" z="6" spawntime="32768"/>
+    <monster name="Yalahari" x="2" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="638" centery="6271" centerz="6" radius="3">
+    <monster name="Orc Shaman" x="-1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="558" centery="6273" centerz="6" radius="3">
+    <monster name="Orc Spearman" x="1" y="-2" z="6" spawntime="60"/>
+    <monster name="Orc Spearman" x="-2" y="-1" z="6" spawntime="60"/>
+    <monster name="Orc Spearman" x="2" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="577" centery="6273" centerz="6" radius="3">
+    <monster name="Orc Spearman" x="-2" y="0" z="6" spawntime="60"/>
+    <monster name="Orc Warrior" x="1" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="598" centery="6273" centerz="6" radius="3">
+    <monster name="Orc Shaman" x="1" y="-1" z="6" spawntime="60"/>
+    <monster name="Orc Shaman" x="-2" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="613" centery="6273" centerz="6" radius="2">
+    <monster name="Orc Warrior" x="1" y="0" z="6" spawntime="60"/>
+    <monster name="Orc Warrior" x="-2" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="624" centery="6273" centerz="6" radius="2">
+    <monster name="Orc Warrior" x="0" y="-1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="646" centery="6274" centerz="6" radius="3">
+    <monster name="Orc Berserker" x="3" y="-2" z="6" spawntime="60"/>
+    <monster name="Orc Leader" x="-3" y="0" z="6" spawntime="60"/>
+    <monster name="Orc Berserker" x="-1" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="608" centery="6282" centerz="6" radius="4">
+    <monster name="Orc Leader" x="-1" y="-2" z="6" spawntime="60"/>
+    <monster name="Orc Berserker" x="3" y="1" z="6" spawntime="60"/>
+    <monster name="Orc Berserker" x="-1" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="434" centery="6283" centerz="6" radius="1">
+    <monster name="Gree Dee" x="0" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="594" centery="6283" centerz="6" radius="2">
+    <monster name="Orc Berserker" x="2" y="-2" z="6" spawntime="60"/>
+    <monster name="Orc Berserker" x="-1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="626" centery="6283" centerz="6" radius="2">
+    <monster name="Orc Leader" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="367" centery="6285" centerz="6" radius="2">
+    <monster name="Dragon Lord" x="-1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="558" centery="6286" centerz="6" radius="3">
+    <monster name="Orc Spearman" x="0" y="-3" z="6" spawntime="60"/>
+    <monster name="Orc Spearman" x="0" y="0" z="6" spawntime="60"/>
+    <monster name="Orc Spearman" x="0" y="3" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="606" centery="6292" centerz="6" radius="4">
+    <monster name="Orc Berserker" x="-3" y="-2" z="6" spawntime="60"/>
+    <monster name="Orc Berserker" x="2" y="2" z="6" spawntime="60"/>
+    <monster name="Orc Shaman" x="-2" y="3" z="6" spawntime="60"/>
+    <monster name="Orc Shaman" x="4" y="4" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="547" centery="6294" centerz="6" radius="5">
+    <monster name="Orc Warrior" x="-1" y="-5" z="6" spawntime="60"/>
+    <monster name="Orc" x="4" y="-3" z="6" spawntime="60"/>
+    <monster name="Orc Berserker" x="0" y="-2" z="6" spawntime="60"/>
+    <monster name="Orc Warrior" x="2" y="-2" z="6" spawntime="60"/>
+    <monster name="Orc Warrior" x="3" y="0" z="6" spawntime="60"/>
+    <monster name="Orc Warrior" x="-1" y="3" z="6" spawntime="60"/>
+    <monster name="Orc" x="3" y="3" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="558" centery="6294" centerz="6" radius="2">
+    <monster name="Orc Warrior" x="-1" y="-1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="592" centery="6295" centerz="6" radius="3">
+    <monster name="Orc Berserker" x="2" y="-2" z="6" spawntime="60"/>
+    <monster name="Orc Shaman" x="-2" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="464" centery="6299" centerz="6" radius="3">
+    <monster name="Redward" x="3" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="558" centery="6301" centerz="6" radius="3">
+    <monster name="Orc Spearman" x="0" y="-2" z="6" spawntime="60"/>
+    <monster name="Orc Spearman" x="2" y="-2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="599" centery="6301" centerz="6" radius="2">
+    <monster name="Orc Shaman" x="0" y="-1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="585" centery="6305" centerz="6" radius="3">
+    <monster name="Orc Berserker" x="-2" y="-2" z="6" spawntime="60"/>
+    <monster name="Orc Berserker" x="2" y="0" z="6" spawntime="60"/>
+    <monster name="Orc" x="-3" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="576" centery="6306" centerz="6" radius="3">
+    <monster name="Orc Spearman" x="2" y="-3" z="6" spawntime="60"/>
+    <monster name="Orc Spearman" x="-2" y="-2" z="6" spawntime="60"/>
+    <monster name="Orc Spearman" x="-1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="366" centery="6311" centerz="6" radius="2">
+    <monster name="Orc Warlord" x="-1" y="-1" z="6" spawntime="60"/>
+    <monster name="Orc Berserker" x="1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="606" centery="6314" centerz="6" radius="8">
+    <monster name="Orc Warrior" x="-6" y="-2" z="6" spawntime="60"/>
+    <monster name="Orc Shaman" x="-2" y="0" z="6" spawntime="60"/>
+    <monster name="Orc Leader" x="3" y="0" z="6" spawntime="60"/>
+    <monster name="Orc Leader" x="-5" y="1" z="6" spawntime="60"/>
+    <monster name="Orc Berserker" x="0" y="1" z="6" spawntime="60"/>
+    <monster name="Orc Warrior" x="4" y="1" z="6" spawntime="60"/>
+    <monster name="Orc Berserker" x="1" y="3" z="6" spawntime="60"/>
+    <monster name="Orc Warrior" x="0" y="4" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="403" centery="6317" centerz="6" radius="1">
+    <monster name="Elf Arcanist" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="560" centery="6317" centerz="6" radius="3">
+    <monster name="Orc Spearman" x="-2" y="-3" z="6" spawntime="60"/>
+    <monster name="Orc Spearman" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="573" centery="6318" centerz="6" radius="2">
+    <monster name="Orc Spearman" x="-1" y="-1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="396" centery="6320" centerz="6" radius="1">
+    <monster name="Elf Scout" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="450" centery="6320" centerz="6" radius="3">
+    <monster name="Guide Edna" x="-2" y="-2" z="6" spawntime="60"/>
+    <monster name="Captain Cookie" x="-3" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="393" centery="6321" centerz="6" radius="1">
+    <monster name="Elf Scout" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="446" centery="6322" centerz="6" radius="1"/>
+  <spawn centerx="399" centery="6324" centerz="6" radius="2">
+    <monster name="Elf Scout" x="1" y="-2" z="6" spawntime="60"/>
+    <monster name="Elf" x="-2" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="573" centery="6326" centerz="6" radius="2">
+    <monster name="Orc Berserker" x="1" y="-2" z="6" spawntime="60"/>
+    <monster name="Orc Spearman" x="-2" y="-1" z="6" spawntime="60"/>
+    <monster name="Orc Spearman" x="0" y="0" z="6" spawntime="60"/>
+    <monster name="Orc Spearman" x="2" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="614" centery="6326" centerz="6" radius="2">
+    <monster name="Orc Berserker" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="643" centery="6326" centerz="6" radius="2">
+    <monster name="Orc Berserker" x="-2" y="-2" z="6" spawntime="60"/>
+    <monster name="Orc Berserker" x="1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="416" centery="6327" centerz="6" radius="2">
+    <monster name="Elf Arcanist" x="0" y="-2" z="6" spawntime="60"/>
+    <monster name="Elf Arcanist" x="-2" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="448" centery="6327" centerz="6" radius="1"/>
+  <spawn centerx="586" centery="6327" centerz="6" radius="4">
+    <monster name="Orc Spearman" x="-2" y="-1" z="6" spawntime="60"/>
+    <monster name="Orc Berserker" x="3" y="-1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="386" centery="6331" centerz="6" radius="1">
+    <monster name="Elf Arcanist" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="476" centery="6331" centerz="6" radius="1">
+    <monster name="Smuggler" x="0" y="-1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="387" centery="6335" centerz="6" radius="1">
+    <monster name="Elf Scout" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="388" centery="6335" centerz="6" radius="1">
+    <monster name="Elf Scout" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="476" centery="6335" centerz="6" radius="1">
+    <monster name="Amazon" x="0" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="413" centery="6337" centerz="6" radius="2">
+    <monster name="Elf Arcanist" x="-1" y="-2" z="6" spawntime="32512"/>
+    <monster name="Elf Arcanist" x="0" y="-2" z="6" spawntime="60"/>
+    <monster name="Elf Scout" x="1" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="486" centery="6337" centerz="6" radius="3">
+    <monster name="Bandit" x="0" y="-3" z="6" spawntime="60"/>
+    <monster name="Bandit" x="-2" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="476" centery="6342" centerz="6" radius="1">
+    <monster name="Smuggler" x="-1" y="-1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="403" centery="6343" centerz="6" radius="2">
+    <monster name="Elf Arcanist" x="0" y="-2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="354" centery="6347" centerz="6" radius="1">
+    <monster name="Bat" x="0" y="1" z="6" spawntime="400"/>
+  </spawn>
+  <spawn centerx="317" centery="6350" centerz="6" radius="3">
+    <npc name="Captain Seahorse" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="367" centery="6356" centerz="6" radius="1">
+    <monster name="Bat" x="-1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="324" centery="6357" centerz="6" radius="3">
+    <npc name="Guide Jonathan" x="-1" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="508" centery="6367" centerz="6" radius="1">
+    <npc name="Stutch" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="510" centery="6367" centerz="6" radius="1">
+    <npc name="Harsky" x="1" y="0" z="6" spawntime="60"/>
+    <npc name="King Tibianus" x="0" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="509" centery="6368" centerz="6" radius="1"/>
+  <spawn centerx="504" centery="6372" centerz="6" radius="1">
+    <monster name="Vad Inchi" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="513" centery="6373" centerz="6" radius="1">
+    <npc name="Noodles" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="354" centery="6380" centerz="6" radius="2">
+    <npc name="Willard" x="1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="548" centery="6381" centerz="6" radius="1">
+    <npc name="Chester Kahs" x="0" y="-1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="416" centery="6388" centerz="6" radius="2">
+    <npc name="Telas" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="355" centery="6389" centerz="6" radius="2">
+    <npc name="Beatrice" x="1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="317" centery="6392" centerz="6" radius="3">
+    <npc name="Mirabell" x="-1" y="-3" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="612" centery="6400" centerz="6" radius="3">
+    <npc name="Gregor" x="-2" y="3" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="537" centery="6403" centerz="6" radius="1">
+    <npc name="Black Bert" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="519" centery="6405" centerz="6" radius="2">
+    <npc name="Guide Luke" x="-1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="509" centery="6406" centerz="6" radius="3">
+    <npc name="Captain Bluebear" x="0" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="624" centery="6422" centerz="6" radius="3">
+    <npc name="Tim, The Guard" x="0" y="-2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="409" centery="6423" centerz="6" radius="3">
+    <npc name="Wyrdin" x="-2" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="559" centery="6423" centerz="6" radius="2">
+    <npc name="Varkhal" x="-1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="542" centery="6442" centerz="6" radius="3">
+    <npc name="Galuna" x="-1" y="1" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="487" centery="6449" centerz="6" radius="2">
+    <npc name="Robin" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="502" centery="6465" centerz="6" radius="2">
+    <npc name="Lungelen" x="-1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="331" centery="1764" centerz="7" radius="5">
+    <monster name="Wolf" x="2" y="-4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="2" z="7" spawntime="60"/>
+    <monster name="Snake" x="-5" y="5" z="7" spawntime="60"/>
+    <monster name="Snake" x="-1" y="5" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="274" centery="1765" centerz="7" radius="2">
+    <npc name="Frodo" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="288" centery="1766" centerz="7" radius="10">
+    <npc name="Aruda" x="2" y="-1" z="7" spawntime="60"/>
+    <monster name="Dog" x="0" y="5" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="287" centery="1770" centerz="7" radius="1"/>
+  <spawn centerx="268" centery="1774" centerz="7" radius="1">
+    <npc name="Benjamin" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="300" centery="1775" centerz="7" radius="1">
+    <npc name="Oswald" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="309" centery="1775" centerz="7" radius="1">
+    <npc name="Quero" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="261" centery="1784" centerz="7" radius="2">
+    <npc name="Naji" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="330" centery="1786" centerz="7" radius="5">
+    <monster name="Snake" x="2" y="-4" z="7" spawntime="60"/>
+    <monster name="Snake" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Snake" x="4" y="-1" z="7" spawntime="60"/>
+    <monster name="Snake" x="2" y="0" z="7" spawntime="60"/>
+    <monster name="Snake" x="4" y="1" z="7" spawntime="60"/>
+    <monster name="Snake" x="2" y="2" z="7" spawntime="60"/>
+    <monster name="Snake" x="2" y="5" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="278" centery="1788" centerz="7" radius="2">
+    <npc name="Nahlesar" x="1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="262" centery="1793" centerz="7" radius="3">
+    <npc name="Elane" x="-1" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="288" centery="1793" centerz="7" radius="2">
+    <npc name="Quentin" x="-1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="407" centery="6180" centerz="7" radius="2"/>
+  <spawn centerx="383" centery="6182" centerz="7" radius="2">
+    <monster name="Mutated Human" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Mutated Human" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="415" centery="6183" centerz="7" radius="2">
+    <monster name="Skeleton" x="-1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="503" centery="6183" centerz="7" radius="2">
+    <monster name="dark apprentice" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="370" centery="6184" centerz="7" radius="2">
+    <monster name="Mutated Human" x="-1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="393" centery="6184" centerz="7" radius="2">
+    <monster name="Slime" x="-2" y="1" z="7" spawntime="60"/>
+    <monster name="Mutated Human" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="362" centery="6187" centerz="7" radius="2"/>
+  <spawn centerx="383" centery="6191" centerz="7" radius="2">
+    <monster name="Slime" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="389" centery="6191" centerz="7" radius="2">
+    <monster name="Mutated Human" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="501" centery="6191" centerz="7" radius="3">
+    <monster name="dark magician" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="dark magician" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="dark magician" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="373" centery="6192" centerz="7" radius="2">
+    <monster name="Mutated Human" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="399" centery="6193" centerz="7" radius="2">
+    <monster name="Mutated Human" x="1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="513" centery="6195" centerz="7" radius="2">
+    <monster name="dark magician" x="2" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="382" centery="6197" centerz="7" radius="2">
+    <monster name="Mutated Human" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="504" centery="6200" centerz="7" radius="2">
+    <monster name="dark apprentice" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="368" centery="6203" centerz="7" radius="2">
+    <monster name="Mutated Human" x="-1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="378" centery="6203" centerz="7" radius="2">
+    <monster name="Mutated Human" x="0" y="-2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="513" centery="6205" centerz="7" radius="2">
+    <monster name="Mad Scientist" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="378" centery="6213" centerz="7" radius="2">
+    <monster name="Mutated Human" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="370" centery="6217" centerz="7" radius="1">
+    <monster name="Slime" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="597" centery="6232" centerz="7" radius="2">
+    <monster name="Orc Spearman" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="605" centery="6234" centerz="7" radius="2">
+    <monster name="Pig" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="613" centery="6234" centerz="7" radius="3">
+    <monster name="Orc Warrior" x="-2" y="-3" z="7" spawntime="60"/>
+    <monster name="Pig" x="0" y="-3" z="7" spawntime="60"/>
+    <monster name="Pig" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Pig" x="-3" y="-1" z="7" spawntime="60"/>
+    <monster name="Pig" x="-3" y="1" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="0" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="583" centery="6235" centerz="7" radius="2">
+    <monster name="Orc Spearman" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="645" centery="6235" centerz="7" radius="4">
+    <monster name="Bear" x="-2" y="0" z="7" spawntime="60"/>
+    <monster name="Bear" x="2" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="-3" y="2" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="2" y="2" z="7" spawntime="60"/>
+    <monster name="Bear" x="0" y="3" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="1" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="445" centery="6237" centerz="7" radius="1">
+    <monster name="Yalahari" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="550" centery="6237" centerz="7" radius="2">
+    <monster name="Orc Warrior" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="-2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="560" centery="6237" centerz="7" radius="2">
+    <monster name="Orc Leader" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="569" centery="6237" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="447" centery="6238" centerz="7" radius="1">
+    <monster name="Golem Guardian" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="600" centery="6238" centerz="7" radius="2">
+    <monster name="Orc" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Pig" x="1" y="1" z="7" spawntime="60"/>
+    <monster name="Orc" x="-2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="610" centery="6241" centerz="7" radius="2">
+    <monster name="Orc Spearman" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="564" centery="6243" centerz="7" radius="2">
+    <monster name="Orc Shaman" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Shaman" x="0" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="636" centery="6243" centerz="7" radius="3">
+    <monster name="Orc Berserker" x="2" y="-3" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-1" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="-3" y="1" z="7" spawntime="60"/>
+    <monster name="Orc Shaman" x="1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="575" centery="6244" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="555" centery="6245" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="603" centery="6245" centerz="7" radius="3">
+    <monster name="Orc Spearman" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Pig" x="3" y="1" z="7" spawntime="60"/>
+    <monster name="Pig" x="1" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="623" centery="6245" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="-1" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="646" centery="6247" centerz="7" radius="3">
+    <monster name="Orc Berserker" x="-3" y="-1" z="7" spawntime="60"/>
+    <monster name="Bear" x="2" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="629" centery="6249" centerz="7" radius="2">
+    <monster name="Wolf" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="562" centery="6250" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Shaman" x="-2" y="0" z="7" spawntime="60"/>
+    <monster name="Orc" x="2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="388" centery="6251" centerz="7" radius="3">
+    <monster name="Cat" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="593" centery="6251" centerz="7" radius="4">
+    <monster name="Orc" x="3" y="-4" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="0" y="-3" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="-3" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="-2" y="1" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="1" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="623" centery="6251" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="573" centery="6252" centerz="7" radius="2">
+    <monster name="Orc Leader" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="581" centery="6252" centerz="7" radius="3">
+    <monster name="Orc Spearman" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="-2" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="2" y="2" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="-2" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="637" centery="6252" centerz="7" radius="3">
+    <monster name="Orc Shaman" x="-3" y="-3" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="-2" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="1" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="3" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="0" y="2" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="-1" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="459" centery="6254" centerz="7" radius="1">
+    <monster name="Butterfly" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="550" centery="6254" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="560" centery="6256" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="499" centery="6257" centerz="7" radius="3">
+    <monster name="Serafin" x="-2" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="506" centery="6257" centerz="7" radius="3">
+    <monster name="Cat" x="-3" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="607" centery="6257" centerz="7" radius="3">
+    <monster name="Orc Warrior" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="576" centery="6260" centerz="7" radius="3">
+    <monster name="Orc Spearman" x="3" y="-3" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="-3" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Leader" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="2" y="1" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="2" y="2" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="-2" y="3" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="1" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="589" centery="6260" centerz="7" radius="2">
+    <monster name="Orc Spearman" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="569" centery="6261" centerz="7" radius="2">
+    <monster name="Orc Warrior" x="0" y="-1" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="-2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="632" centery="6261" centerz="7" radius="2">
+    <monster name="Orc Warrior" x="0" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="1" y="0" z="7" spawntime="32768"/>
+    <monster name="Orc Berserker" x="-2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="638" centery="6261" centerz="7" radius="2">
+    <monster name="Orc Warrior" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="649" centery="6261" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="548" centery="6262" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="-2" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="623" centery="6262" centerz="7" radius="2">
+    <monster name="Orc Spearman" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="-2" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="558" centery="6264" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc" x="2" y="0" z="7" spawntime="60"/>
+    <monster name="Orc" x="-1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="564" centery="6264" centerz="7" radius="1">
+    <monster name="Orc Warrior" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="586" centery="6267" centerz="7" radius="2">
+    <monster name="Orc Warrior" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="631" centery="6267" centerz="7" radius="2">
+    <monster name="Orc Spearman" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="540" centery="6268" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="547" centery="6268" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="569" centery="6268" centerz="7" radius="2">
+    <monster name="Orc Warrior" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="466" centery="6269" centerz="7" radius="1">
+    <monster name="Soilance" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="367" centery="6271" centerz="7" radius="5">
+    <monster name="Elephant" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="637" centery="6271" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="-1" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="644" centery="6271" centerz="7" radius="2">
+    <monster name="Orc Leader" x="0" y="-1" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="558" centery="6273" centerz="7" radius="2">
+    <monster name="Orc Warrior" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="624" centery="6273" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="0" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="434" centery="6274" centerz="7" radius="2">
+    <npc name="Timothy" x="-2" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="575" centery="6276" centerz="7" radius="3">
+    <monster name="Orc Spearman" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="3" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="632" centery="6276" centerz="7" radius="1">
+    <monster name="Orc Berserker" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="648" centery="6276" centerz="7" radius="1">
+    <monster name="Orc Berserker" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="523" centery="6277" centerz="7" radius="5">
+    <monster name="Poison spider" x="0" y="-4" z="7" spawntime="59"/>
+    <monster name="Poison spider" x="-3" y="0" z="7" spawntime="59"/>
+    <monster name="Poison spider" x="1" y="2" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="375" centery="6278" centerz="7" radius="5">
+    <monster name="Carniphila" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="583" centery="6278" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="-2" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="623" centery="6278" centerz="7" radius="1">
+    <monster name="Orc Spearman" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="641" centery="6278" centerz="7" radius="3">
+    <monster name="Orc Shaman" x="-3" y="-1" z="7" spawntime="60"/>
+    <monster name="Orc Shaman" x="0" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Shaman" x="0" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="635" centery="6281" centerz="7" radius="1">
+    <monster name="Elf" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="615" centery="6282" centerz="7" radius="3">
+    <monster name="Orc Berserker" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="2" y="-1" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="-1" y="2" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="3" y="2" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="1" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="652" centery="6282" centerz="7" radius="2">
+    <monster name="Orc Warrior" x="1" y="-2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="628" centery="6283" centerz="7" radius="2">
+    <monster name="Orc Shaman" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="428" centery="6284" centerz="7" radius="1">
+    <npc name="Dorbin" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="422" centery="6285" centerz="7" radius="1"/>
+  <spawn centerx="432" centery="6285" centerz="7" radius="1">
+    <monster name="Oiriz" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="464" centery="6285" centerz="7" radius="3">
+    <monster name="Morpel" x="2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="518" centery="6285" centerz="7" radius="1">
+    <monster name="spider" x="-1" y="0" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="516" centery="6289" centerz="7" radius="1">
+    <monster name="Rat" x="0" y="-1" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="618" centery="6290" centerz="7" radius="2">
+    <monster name="Orc Spearman" x="0" y="-1" z="7" spawntime="60"/>
+    <monster name="Orc Shaman" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="378" centery="6292" centerz="7" radius="2">
+    <monster name="Orc Warrior" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="450" centery="6292" centerz="7" radius="3">
+    <monster name="Menacing Mummy" x="2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="457" centery="6292" centerz="7" radius="3">
+    <npc name="Lisander" x="3" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="464" centery="6292" centerz="7" radius="3">
+    <monster name="A Grumpy Cyclops" x="3" y="-3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="565" centery="6292" centerz="7" radius="2">
+    <monster name="Cyclops" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Orc Shaman" x="2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="626" centery="6293" centerz="7" radius="4">
+    <monster name="Orc Spearman" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Shaman" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="-2" y="2" z="7" spawntime="60"/>
+    <monster name="Pig" x="2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="634" centery="6293" centerz="7" radius="2">
+    <monster name="Orc" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc" x="-2" y="1" z="7" spawntime="60"/>
+    <monster name="Orc" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="512" centery="6294" centerz="7" radius="1">
+    <monster name="Wolf" x="0" y="0" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="572" centery="6295" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="-1" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="516" centery="6296" centerz="7" radius="1">
+    <monster name="spider" x="-1" y="-1" z="7" spawntime="59"/>
+    <monster name="spider" x="1" y="1" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="371" centery="6297" centerz="7" radius="1">
+    <monster name="Orc Warrior" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="383" centery="6297" centerz="7" radius="2">
+    <monster name="Orc Spearman" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="560" centery="6297" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="617" centery="6297" centerz="7" radius="3">
+    <monster name="Orc Spearman" x="-2" y="-3" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Chicken" x="-3" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Shaman" x="-2" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="0" y="0" z="7" spawntime="60"/>
+    <monster name="Chicken" x="-1" y="1" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="3" y="1" z="7" spawntime="32768"/>
+  </spawn>
+  <spawn centerx="464" centery="6299" centerz="7" radius="3">
+    <monster name="Znozel" x="3" y="-2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="520" centery="6299" centerz="7" radius="1">
+    <monster name="Crazed Beggar" x="0" y="0" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="638" centery="6299" centerz="7" radius="2">
+    <monster name="Orc" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="566" centery="6300" centerz="7" radius="2">
+    <monster name="Orc Shaman" x="-1" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="-2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="480" centery="6301" centerz="7" radius="1">
+    <monster name="Cat" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="540" centery="6301" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="2" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="550" centery="6301" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Pig" x="-2" y="0" z="7" spawntime="60"/>
+    <monster name="Pig" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="383" centery="6302" centerz="7" radius="1">
+    <monster name="Orc Spearman" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="411" centery="6303" centerz="7" radius="1">
+    <monster name="Cat" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="515" centery="6303" centerz="7" radius="1">
+    <monster name="Bandit" x="0" y="0" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="519" centery="6303" centerz="7" radius="1">
+    <monster name="Rat" x="0" y="1" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="528" centery="6303" centerz="7" radius="1">
+    <monster name="Dog" x="0" y="1" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="626" centery="6303" centerz="7" radius="2">
+    <monster name="Orc Spearman" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="1" y="-2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="366" centery="6304" centerz="7" radius="1">
+    <monster name="Orc Warrior" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="524" centery="6304" centerz="7" radius="1">
+    <monster name="Amazon" x="0" y="-1" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="643" centery="6304" centerz="7" radius="2">
+    <monster name="Orc Warrior" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="0" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="378" centery="6305" centerz="7" radius="1">
+    <monster name="Orc Spearman" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="369" centery="6306" centerz="7" radius="1">
+    <monster name="Orc Spearman" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="375" centery="6306" centerz="7" radius="1">
+    <monster name="Orc Spearman" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="578" centery="6306" centerz="7" radius="4">
+    <monster name="Orc Shaman" x="-2" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="2" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Leader" x="2" y="3" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="-1" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="607" centery="6307" centerz="7" radius="2">
+    <monster name="Orc" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="522" centery="6308" centerz="7" radius="1">
+    <monster name="Bug" x="1" y="-1" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="369" centery="6309" centerz="7" radius="1">
+    <monster name="Orc Warrior" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="531" centery="6309" centerz="7" radius="2">
+    <monster name="Bug" x="-1" y="2" z="7" spawntime="59"/>
+    <monster name="Cat" x="1" y="2" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="616" centery="6309" centerz="7" radius="2">
+    <monster name="Chicken" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="374" centery="6310" centerz="7" radius="1">
+    <monster name="Orc Warrior" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="518" centery="6310" centerz="7" radius="1">
+    <monster name="Rat" x="1" y="0" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="539" centery="6310" centerz="7" radius="2">
+    <monster name="Amazon" x="-2" y="2" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="362" centery="6311" centerz="7" radius="1">
+    <monster name="Orc Warrior" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="567" centery="6311" centerz="7" radius="2">
+    <monster name="Orc Warrior" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="499" centery="6312" centerz="7" radius="2">
+    <monster name="spider" x="1" y="0" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="546" centery="6312" centerz="7" radius="3">
+    <monster name="Orc Berserker" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="3" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="522" centery="6313" centerz="7" radius="1">
+    <monster name="Crazed Beggar" x="1" y="0" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="590" centery="6313" centerz="7" radius="2">
+    <monster name="Orc Shaman" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="595" centery="6313" centerz="7" radius="1">
+    <monster name="Orc Berserker" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="601" centery="6313" centerz="7" radius="3">
+    <monster name="Orc Berserker" x="0" y="-1" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="-3" y="3" z="7" spawntime="60"/>
+    <monster name="Orc" x="0" y="3" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="1" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="395" centery="6314" centerz="7" radius="1">
+    <monster name="Elf Scout" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="396" centery="6314" centerz="7" radius="1">
+    <monster name="Elf" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="398" centery="6314" centerz="7" radius="1">
+    <monster name="Elf Scout" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="518" centery="6314" centerz="7" radius="1">
+    <monster name="Cat" x="0" y="-1" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="639" centery="6314" centerz="7" radius="6">
+    <monster name="Orc Berserker" x="-2" y="-5" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="4" y="-5" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="3" y="-3" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="-6" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="5" y="1" z="7" spawntime="60"/>
+    <monster name="Orc Berserker" x="-1" y="2" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="-2" y="5" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="373" centery="6316" centerz="7" radius="1">
+    <monster name="Orc Warrior" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="376" centery="6317" centerz="7" radius="1">
+    <monster name="Orc Warrior" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="557" centery="6317" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="582" centery="6317" centerz="7" radius="2">
+    <monster name="Orc Shaman" x="2" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="618" centery="6317" centerz="7" radius="2">
+    <monster name="Orc Leader" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Leader" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="402" centery="6318" centerz="7" radius="2">
+    <monster name="Elf Scout" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="531" centery="6318" centerz="7" radius="2">
+    <monster name="Bug" x="0" y="-1" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="571" centery="6318" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="607" centery="6318" centerz="7" radius="2">
+    <monster name="Orc" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="392" centery="6319" centerz="7" radius="1">
+    <monster name="Elf Scout" x="1" y="0" z="7" spawntime="60"/>
+    <monster name="Elf" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="492" centery="6319" centerz="7" radius="2">
+    <monster name="spider" x="1" y="-2" z="7" spawntime="59"/>
+    <monster name="spider" x="0" y="2" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="500" centery="6319" centerz="7" radius="2">
+    <monster name="Smuggler" x="-1" y="-2" z="7" spawntime="59"/>
+    <monster name="Crazed Beggar" x="1" y="2" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="506" centery="6319" centerz="7" radius="2">
+    <monster name="spider" x="-1" y="1" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="519" centery="6319" centerz="7" radius="2">
+    <monster name="Smuggler" x="-1" y="1" z="7" spawntime="59"/>
+    <monster name="Damaged Worker Golem" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="367" centery="6320" centerz="7" radius="1">
+    <monster name="Orc Warrior" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="391" centery="6320" centerz="7" radius="1"/>
+  <spawn centerx="394" centery="6320" centerz="7" radius="1">
+    <monster name="Elf Scout" x="1" y="0" z="7" spawntime="60"/>
+    <monster name="Elf" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="393" centery="6321" centerz="7" radius="1"/>
+  <spawn centerx="585" centery="6323" centerz="7" radius="2">
+    <monster name="Orc Warrior" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="594" centery="6323" centerz="7" radius="2">
+    <monster name="Orc Warrior" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="388" centery="6324" centerz="7" radius="1">
+    <monster name="Elf" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="398" centery="6324" centerz="7" radius="2">
+    <monster name="Elf" x="2" y="-2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="475" centery="6324" centerz="7" radius="2">
+    <npc name="Julius" x="0" y="0" z="7" spawntime="60"/>
+    <monster name="Wild Warrior" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="412" centery="6325" centerz="7" radius="3">
+    <monster name="Elf" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="3" y="0" z="7" spawntime="60"/>
+    <monster name="Elf" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="432" centery="6325" centerz="7" radius="1">
+    <monster name="Lorietta" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="514" centery="6325" centerz="7" radius="1">
+    <monster name="Dog" x="0" y="-1" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="643" centery="6326" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="0" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="501" centery="6327" centerz="7" radius="1">
+    <monster name="Bandit" x="0" y="1" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="508" centery="6327" centerz="7" radius="1">
+    <monster name="Bandit" x="0" y="1" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="404" centery="6329" centerz="7" radius="1">
+    <monster name="Elf Scout" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="398" centery="6330" centerz="7" radius="2">
+    <monster name="Elf Scout" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="627" centery="6330" centerz="7" radius="2">
+    <monster name="Orc Leader" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="608" centery="6331" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="485" centery="6332" centerz="7" radius="2">
+    <monster name="Wild Warrior" x="2" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="520" centery="6332" centerz="7" radius="2">
+    <monster name="Wolf" x="0" y="-1" z="7" spawntime="59"/>
+    <monster name="Wolf" x="0" y="2" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="530" centery="6332" centerz="7" radius="2">
+    <monster name="Dwarf" x="-2" y="-2" z="7" spawntime="59"/>
+    <monster name="Bug" x="0" y="1" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="636" centery="6332" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Shaman" x="-1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="507" centery="6333" centerz="7" radius="1">
+    <monster name="Smuggler" x="-1" y="0" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="618" centery="6333" centerz="7" radius="2">
+    <monster name="Orc Berserker" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="365" centery="6335" centerz="7" radius="1">
+    <npc name="Zarak" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="476" centery="6335" centerz="7" radius="2">
+    <monster name="Amazon" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="392" centery="6336" centerz="7" radius="2">
+    <monster name="Elf Scout" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="499" centery="6336" centerz="7" radius="1">
+    <monster name="Centipede" x="-1" y="-1" z="7" spawntime="59"/>
+    <monster name="Pig" x="1" y="1" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="568" centery="6336" centerz="7" radius="2">
+    <monster name="Orc Warrior" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="412" centery="6337" centerz="7" radius="3">
+    <monster name="Elf" x="-2" y="-2" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Elf" x="1" y="2" z="7" spawntime="60"/>
+    <monster name="Elf Scout" x="1" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="538" centery="6337" centerz="7" radius="2">
+    <monster name="Hunter" x="1" y="-2" z="7" spawntime="59"/>
+    <monster name="Pig" x="-1" y="2" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="604" centery="6337" centerz="7" radius="2">
+    <monster name="Orc Shaman" x="2" y="-2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="610" centery="6337" centerz="7" radius="2"/>
+  <spawn centerx="531" centery="6338" centerz="7" radius="2">
+    <monster name="Dwarf" x="0" y="-1" z="7" spawntime="59"/>
+    <monster name="Pig" x="-2" y="2" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="484" centery="6339" centerz="7" radius="2">
+    <monster name="Amazon" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Valkyrie" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="489" centery="6339" centerz="7" radius="1">
+    <monster name="Wild Warrior" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="514" centery="6339" centerz="7" radius="2">
+    <monster name="Amazon" x="1" y="0" z="7" spawntime="59"/>
+    <monster name="Wolf" x="-2" y="1" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="380" centery="6340" centerz="7" radius="1">
+    <monster name="Elf Scout" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="402" centery="6341" centerz="7" radius="2">
+    <monster name="Elf" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Elf" x="-2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="508" centery="6341" centerz="7" radius="2">
+    <monster name="dark apprentice" x="1" y="0" z="7" spawntime="59"/>
+  </spawn>
+  <spawn centerx="486" centery="6344" centerz="7" radius="3">
+    <monster name="Snake" x="-1" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="406" centery="6346" centerz="7" radius="1">
+    <monster name="Deer" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="645" centery="6348" centerz="7" radius="5">
+    <monster name="Wolf" x="2" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-4" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="454" centery="6350" centerz="7" radius="2">
+    <npc name="Albert" x="-1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="394" centery="6352" centerz="7" radius="5">
+    <npc name="Avar Tar" x="-1" y="1" z="7" spawntime="61"/>
+  </spawn>
+  <spawn centerx="421" centery="6353" centerz="7" radius="1">
+    <monster name="Chicken" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="524" centery="6356" centerz="7" radius="2">
+    <monster name="Wolf" x="-1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="421" centery="6358" centerz="7" radius="1">
+    <npc name="James" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="331" centery="6364" centerz="7" radius="3">
+    <npc name="Falk" x="1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="542" centery="6365" centerz="7" radius="3">
+    <monster name="Rabbit" x="3" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="607" centery="6367" centerz="7" radius="1">
+    <npc name="Gamon" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="614" centery="6367" centerz="7" radius="1">
+    <npc name="Topsy" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="477" centery="6370" centerz="7" radius="2">
+    <monster name="Rabbit" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="641" centery="6373" centerz="7" radius="5">
+    <monster name="Wolf" x="2" y="-4" z="7" spawntime="60"/>
+    <monster name="Wolf" x="-3" y="2" z="7" spawntime="60"/>
+    <monster name="Snake" x="-5" y="5" z="7" spawntime="60"/>
+    <monster name="Snake" x="-1" y="5" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="613" centery="6375" centerz="7" radius="1">
+    <npc name="Turvy" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="331" centery="6378" centerz="7" radius="3">
+    <npc name="Edron Guardsman" x="-1" y="-2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="338" centery="6378" centerz="7" radius="3">
+    <npc name="Edron Guardsman" x="-3" y="-2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="658" centery="6378" centerz="7" radius="2">
+    <monster name="Snake" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="542" centery="6379" centerz="7" radius="3">
+    <npc name="Harkath Bloodblade" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="549" centery="6379" centerz="7" radius="3">
+    <npc name="Emilie" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="569" centery="6380" centerz="7" radius="1">
+    <npc name="Grof, The Guard" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="511" centery="6381" centerz="7" radius="2">
+    <npc name="Bozo" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="647" centery="6384" centerz="7" radius="1">
+    <monster name="Wolf" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="331" centery="6385" centerz="7" radius="3">
+    <npc name="Daniel Steelsoul" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="521" centery="6385" centerz="7" radius="2">
+    <npc name="Baxter" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="658" centery="6385" centerz="7" radius="2">
+    <monster name="Snake" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="439" centery="6386" centerz="7" radius="1">
+    <monster name="Deer" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="303" centery="6392" centerz="7" radius="3">
+    <npc name="Bonifacius" x="3" y="-3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="317" centery="6392" centerz="7" radius="3">
+    <npc name="Ebenizer" x="-1" y="-3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="563" centery="6393" centerz="7" radius="3">
+    <npc name="Sam" x="-3" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="640" centery="6395" centerz="7" radius="5">
+    <monster name="Snake" x="2" y="-4" z="7" spawntime="60"/>
+    <monster name="Snake" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Snake" x="4" y="-1" z="7" spawntime="60"/>
+    <monster name="Snake" x="2" y="0" z="7" spawntime="60"/>
+    <monster name="Snake" x="4" y="1" z="7" spawntime="60"/>
+    <monster name="Snake" x="2" y="2" z="7" spawntime="60"/>
+    <monster name="Snake" x="2" y="5" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="533" centery="6397" centerz="7" radius="3">
+    <npc name="Lynda" x="-1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="577" centery="6397" centerz="7" radius="2">
+    <npc name="Gorn" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="317" centery="6399" centerz="7" radius="3">
+    <npc name="Chrystal" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="419" centery="6399" centerz="7" radius="1">
+    <monster name="spider" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="413" centery="6401" centerz="7" radius="1">
+    <monster name="Rabbit" x="0" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="405" centery="6403" centerz="7" radius="1">
+    <monster name="Rabbit" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="420" centery="6404" centerz="7" radius="1">
+    <monster name="Rabbit" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="554" centery="6407" centerz="7" radius="2">
+    <npc name="Frodo" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="568" centery="6408" centerz="7" radius="10">
+    <npc name="Aruda" x="2" y="-1" z="7" spawntime="60"/>
+    <monster name="Dog" x="0" y="5" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="567" centery="6412" centerz="7" radius="1"/>
+  <spawn centerx="529" centery="6414" centerz="7" radius="10">
+    <npc name="Towncryer" x="-1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="674" centery="6414" centerz="7" radius="6">
+    <monster name="Snake" x="-3" y="-6" z="7" spawntime="60"/>
+    <monster name="Snake" x="0" y="-6" z="7" spawntime="60"/>
+    <monster name="Snake" x="-6" y="-5" z="7" spawntime="60"/>
+    <monster name="Snake" x="-5" y="-2" z="7" spawntime="60"/>
+    <monster name="Snake" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Snake" x="1" y="0" z="7" spawntime="60"/>
+    <monster name="Snake" x="2" y="2" z="7" spawntime="60"/>
+    <monster name="Snake" x="-4" y="3" z="7" spawntime="60"/>
+    <monster name="Poison spider" x="-2" y="3" z="7" spawntime="60"/>
+    <monster name="Snake" x="-3" y="5" z="7" spawntime="60"/>
+    <monster name="Snake" x="3" y="5" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="548" centery="6416" centerz="7" radius="1">
+    <npc name="Benjamin" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="580" centery="6417" centerz="7" radius="1">
+    <npc name="Oswald" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="589" centery="6417" centerz="7" radius="1">
+    <npc name="Quero" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="606" centery="6417" centerz="7" radius="1">
+    <npc name="hanna" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="597" centery="6419" centerz="7" radius="1">
+    <npc name="Xodet" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="358" centery="6420" centerz="7" radius="2">
+    <npc name="Iwan" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="369" centery="6420" centerz="7" radius="2">
+    <npc name="Edvard" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="454" centery="6422" centerz="7" radius="3">
+    <npc name="Servant Sentry" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="663" centery="6424" centerz="7" radius="4">
+    <monster name="Poison spider" x="4" y="-4" z="7" spawntime="60"/>
+    <monster name="Poison spider" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Poison spider" x="-1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="673" centery="6424" centerz="7" radius="2">
+    <monster name="Poison spider" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="541" centery="6426" centerz="7" radius="2">
+    <npc name="Naji" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="398" centery="6428" centerz="7" radius="1">
+    <npc name="Sandra" x="0" y="-1" z="7" spawntime="61"/>
+  </spawn>
+  <spawn centerx="599" centery="6428" centerz="7" radius="2">
+    <monster name="Pig" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Pig" x="-1" y="0" z="7" spawntime="60"/>
+    <monster name="Pig" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="558" centery="6430" centerz="7" radius="2">
+    <npc name="Nahlesar" x="1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="354" centery="6433" centerz="7" radius="2">
+    <monster name="Dog" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="605" centery="6434" centerz="7" radius="2">
+    <monster name="Sheep" x="-1" y="-1" z="7" spawntime="60"/>
+    <monster name="Sheep" x="1" y="-1" z="7" spawntime="60"/>
+    <monster name="Sheep" x="-1" y="1" z="7" spawntime="60"/>
+    <monster name="Sheep" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="542" centery="6435" centerz="7" radius="3">
+    <npc name="Elane" x="-1" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="568" centery="6435" centerz="7" radius="2">
+    <npc name="Quentin" x="-1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="409" centery="6436" centerz="7" radius="2">
+    <npc name="Ursula" x="-1" y="0" z="7" spawntime="61"/>
+  </spawn>
+  <spawn centerx="597" centery="6437" centerz="7" radius="2">
+    <monster name="Chicken" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Chicken" x="-1" y="1" z="7" spawntime="60"/>
+    <monster name="Chicken" x="2" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="294" centery="6438" centerz="7" radius="3">
+    <monster name="Poison spider" x="-3" y="-2" z="7" spawntime="60"/>
+    <monster name="Poison spider" x="0" y="1" z="7" spawntime="60"/>
+    <monster name="Poison spider" x="3" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="287" centery="6440" centerz="7" radius="2">
+    <monster name="Orc" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Snake" x="-1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="656" centery="6440" centerz="7" radius="3">
+    <monster name="Wolf" x="3" y="-3" z="7" spawntime="60"/>
+    <monster name="Wolf" x="0" y="-1" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="670" centery="6444" centerz="7" radius="3">
+    <monster name="Troll" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Troll" x="3" y="1" z="7" spawntime="60"/>
+    <monster name="Troll" x="-1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="678" centery="6444" centerz="7" radius="3">
+    <monster name="Troll" x="0" y="-3" z="7" spawntime="60"/>
+    <monster name="Troll" x="-1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="280" centery="6445" centerz="7" radius="3">
+    <monster name="Snake" x="-2" y="-3" z="7" spawntime="60"/>
+    <monster name="Deer" x="1" y="-3" z="7" spawntime="60"/>
+    <monster name="Deer" x="-2" y="0" z="7" spawntime="60"/>
+    <monster name="Snake" x="-1" y="2" z="7" spawntime="60"/>
+    <monster name="Snake" x="3" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="519" centery="6455" centerz="7" radius="1">
+    <npc name="Suzy" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="304" centery="6456" centerz="7" radius="5">
+    <monster name="Deer" x="-3" y="-5" z="7" spawntime="60"/>
+    <monster name="Poison spider" x="1" y="-4" z="7" spawntime="60"/>
+    <monster name="Poison spider" x="-5" y="-2" z="7" spawntime="60"/>
+    <monster name="Poison spider" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Poison spider" x="4" y="3" z="7" spawntime="60"/>
+    <monster name="Poison spider" x="-4" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="276" centery="6458" centerz="7" radius="2">
+    <monster name="Deer" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Deer" x="0" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="679" centery="6458" centerz="7" radius="3">
+    <monster name="Troll" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Troll" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="494" centery="6460" centerz="7" radius="1">
+    <npc name="Muriel" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="485" centery="6461" centerz="7" radius="3">
+    <npc name="Kulag, The Guard" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="320" centery="6465" centerz="7" radius="4">
+    <monster name="Orc Spearman" x="3" y="-4" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc" x="-3" y="-1" z="7" spawntime="60"/>
+    <monster name="Orc" x="3" y="0" z="7" spawntime="60"/>
+    <monster name="Orc" x="0" y="2" z="7" spawntime="60"/>
+    <monster name="Orc" x="4" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="292" centery="6466" centerz="7" radius="2">
+    <monster name="Poison spider" x="0" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Wisp" x="-2" y="1" z="7" spawntime="60"/>
+    <monster name="Orc" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="284" centery="6467" centerz="7" radius="3">
+    <monster name="Orc Spearman" x="3" y="-3" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="1" y="0" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="3" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="651" centery="6469" centerz="7" radius="2">
+    <monster name="Deer" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="458" centery="6470" centerz="7" radius="3">
+    <npc name="Eremo" x="2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="524" centery="6473" centerz="7" radius="1">
+    <npc name="Wyat" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="537" centery="6474" centerz="7" radius="1">
+    <npc name="Walter, The Guard" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="636" centery="6474" centerz="7" radius="3">
+    <monster name="Deer" x="1" y="-3" z="7" spawntime="60"/>
+    <monster name="Deer" x="-2" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="282" centery="6476" centerz="7" radius="3">
+    <monster name="Poison spider" x="2" y="-2" z="7" spawntime="60"/>
+    <monster name="Deer" x="-3" y="0" z="7" spawntime="60"/>
+    <monster name="Orc" x="1" y="1" z="7" spawntime="60"/>
+    <monster name="Poison spider" x="-1" y="2" z="7" spawntime="60"/>
+    <monster name="Poison spider" x="3" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="563" centery="6479" centerz="7" radius="2">
+    <monster name="Snake" x="-2" y="-1" z="7" spawntime="60"/>
+    <monster name="Snake" x="1" y="2" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="321" centery="6483" centerz="7" radius="4">
+    <monster name="Poison spider" x="2" y="-4" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="-2" y="-3" z="7" spawntime="60"/>
+    <monster name="Poison spider" x="0" y="-3" z="7" spawntime="60"/>
+    <monster name="Poison spider" x="-3" y="-1" z="7" spawntime="60"/>
+    <monster name="Poison spider" x="1" y="2" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="3" y="2" z="7" spawntime="60"/>
+    <monster name="Orc Spearman" x="-1" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="480" centery="6483" centerz="7" radius="1">
+    <monster name="Deer" x="-1" y="0" z="7" spawntime="60"/>
+    <monster name="Deer" x="-1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="493" centery="6483" centerz="7" radius="3">
+    <monster name="Snake" x="-2" y="0" z="7" spawntime="60"/>
+    <monster name="Snake" x="1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="313" centery="6489" centerz="7" radius="2">
+    <monster name="Orc Warrior" x="2" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="298" centery="6493" centerz="7" radius="2">
+    <monster name="Orc Warrior" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="305" centery="6495" centerz="7" radius="2">
+    <monster name="Orc Warrior" x="-1" y="-2" z="7" spawntime="60"/>
+    <monster name="Orc Warrior" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="318" centery="6498" centerz="7" radius="2">
+    <monster name="Orc Spearman" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+</spawns>

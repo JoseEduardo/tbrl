@@ -1,0 +1,170 @@
+﻿Build started 18/03/2018 11:08:00.
+     1>Project "D:\Projetos\Pessoal\HandsofTibia\server\vc12\theforgottenserver.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0\mysql-connector-c\include" /I"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0\mpir\include" /I"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0\LuaJIT\include" /ID:\Projetos\Pessoal\HandsofTibia\libs\boost_1_57_0 /ID:\Projetos\Pessoal\HandsofTibia\libs\boost_1_57_0 /I"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0\LuaJIT\\include" /I"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0\mpir\\include" /I"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0\mysql-connector-c\\include" /Zi /nologo /W4 /WX- /MP /Ox /GL /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"otpch.h" /Fp"x64\Release\theforgottenserver.pch" /Fo"x64\Release\\obj_r\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\src\otpch.cpp
+         otpch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0\mysql-connector-c\include" /I"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0\mpir\include" /I"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0\LuaJIT\include" /ID:\Projetos\Pessoal\HandsofTibia\libs\boost_1_57_0 /ID:\Projetos\Pessoal\HandsofTibia\libs\boost_1_57_0 /I"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0\LuaJIT\\include" /I"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0\mpir\\include" /I"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0\mysql-connector-c\\include" /Zi /nologo /W4 /WX- /MP /Ox /GL /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"otpch.h" /Fp"x64\Release\theforgottenserver.pch" /Fo"x64\Release\\obj_r\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\src\actions.cpp ..\src\ban.cpp ..\src\baseevents.cpp ..\src\bed.cpp ..\src\chat.cpp ..\src\combat.cpp ..\src\commands.cpp ..\src\condition.cpp ..\src\configmanager.cpp ..\src\connection.cpp ..\src\container.cpp ..\src\creature.cpp ..\src\creatureevent.cpp ..\src\cylinder.cpp ..\src\database.cpp ..\src\databasemanager.cpp ..\src\databasetasks.cpp ..\src\depotchest.cpp ..\src\depotlocker.cpp ..\src\events.cpp ..\src\fileloader.cpp ..\src\game.cpp ..\src\globalevent.cpp ..\src\groups.cpp ..\src\guild.cpp ..\src\house.cpp ..\src\housetile.cpp ..\src\inbox.cpp ..\src\ioguild.cpp ..\src\iologindata.cpp ..\src\iomap.cpp ..\src\iomapserialize.cpp ..\src\iomarket.cpp ..\src\item.cpp ..\src\items.cpp ..\src\luascript.cpp ..\src\mailbox.cpp ..\src\map.cpp ..\src\monster.cpp ..\src\monsters.cpp ..\src\mounts.cpp ..\src\movement.cpp ..\src\networkmessage.cpp ..\src\npc.cpp ..\src\otserv.cpp ..\src\outfit.cpp ..\src\outputmessage.cpp ..\src\party.cpp ..\src\player.cpp ..\src\position.cpp ..\src\protocol.cpp ..\src\protocolgame.cpp ..\src\protocollogin.cpp ..\src\protocolold.cpp ..\src\quests.cpp ..\src\raids.cpp ..\src\rsa.cpp ..\src\scheduler.cpp ..\src\scriptmanager.cpp ..\src\server.cpp ..\src\spawn.cpp ..\src\spells.cpp ..\src\protocolstatus.cpp ..\src\talkaction.cpp ..\src\tasks.cpp ..\src\teleport.cpp ..\src\thing.cpp ..\src\tile.cpp ..\src\tools.cpp ..\src\trashholder.cpp ..\src\vocation.cpp ..\src\waitlist.cpp ..\src\weapons.cpp ..\src\wildcardtree.cpp
+         actions.cpp
+         ban.cpp
+         baseevents.cpp
+         bed.cpp
+         chat.cpp
+         combat.cpp
+         commands.cpp
+         condition.cpp
+         configmanager.cpp
+         connection.cpp
+         container.cpp
+         creature.cpp
+         creatureevent.cpp
+         cylinder.cpp
+         database.cpp
+         databasemanager.cpp
+         databasetasks.cpp
+         depotchest.cpp
+         depotlocker.cpp
+         events.cpp
+         fileloader.cpp
+         game.cpp
+         globalevent.cpp
+         groups.cpp
+         guild.cpp
+         house.cpp
+         housetile.cpp
+         inbox.cpp
+         ioguild.cpp
+         iologindata.cpp
+         iomap.cpp
+         iomapserialize.cpp
+         iomarket.cpp
+         item.cpp
+         items.cpp
+         luascript.cpp
+         mailbox.cpp
+         map.cpp
+         monster.cpp
+         monsters.cpp
+         mounts.cpp
+         movement.cpp
+     1>..\src\luascript.cpp(7054): warning C4239: nonstandard extension used : 'initializing' : conversion from 'Position' to 'Position &'
+                 A non-const reference may only be bound to an lvalue
+     1>..\src\luascript.cpp(7055): warning C4239: nonstandard extension used : 'initializing' : conversion from 'Position' to 'Position &'
+                 A non-const reference may only be bound to an lvalue
+         networkmessage.cpp
+         npc.cpp
+         otserv.cpp
+         outfit.cpp
+         outputmessage.cpp
+         party.cpp
+         player.cpp
+         position.cpp
+         protocol.cpp
+         protocolgame.cpp
+         protocollogin.cpp
+     1>..\src\monster.cpp(823): warning C4189: 'targetPos' : local variable is initialized but not referenced
+     1>..\src\monster.cpp(822): warning C4189: 'myPos' : local variable is initialized but not referenced
+         protocolold.cpp
+         quests.cpp
+         raids.cpp
+         rsa.cpp
+         scheduler.cpp
+         scriptmanager.cpp
+         server.cpp
+         spawn.cpp
+         spells.cpp
+         protocolstatus.cpp
+         talkaction.cpp
+         tasks.cpp
+         teleport.cpp
+         thing.cpp
+         tile.cpp
+         tools.cpp
+         trashholder.cpp
+         vocation.cpp
+         waitlist.cpp
+         weapons.cpp
+         wildcardtree.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projetos\Pessoal\HandsofTibia\server\vc12\x64\Release\theforgottenserver.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\Projetos\Pessoal\HandsofTibia\libs\boost_1_57_0\lib64-msvc-12.0" /LIBPATH:"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0\mysql-connector-c\lib64" /LIBPATH:"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0\mpir\lib64" /LIBPATH:"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0\LuaJIT\lib64" /LIBPATH:"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0" /LIBPATH:"D:\Projetos\Pessoal\HandsofTibia\libs\boost_1_57_0\lib64-msvc-12.0" /LIBPATH:"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0\LuaJIT\\lib64" /LIBPATH:"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0\mpir\\lib64" /LIBPATH:"D:\Projetos\Pessoal\HandsofTibia\libs\tfs-sdk-2.0\mysql-connector-c\\lib64" lua51.lib mpir.lib libmysql.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projetos\Pessoal\HandsofTibia\server\vc12\x64\Release\theforgottenserver.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projetos\Pessoal\HandsofTibia\server\vc12\x64\Release\theforgottenserver.lib" /MACHINE:X64 x64\Release\\obj_r\actions.obj
+         x64\Release\\obj_r\ban.obj
+         x64\Release\\obj_r\baseevents.obj
+         x64\Release\\obj_r\bed.obj
+         x64\Release\\obj_r\chat.obj
+         x64\Release\\obj_r\combat.obj
+         x64\Release\\obj_r\commands.obj
+         x64\Release\\obj_r\condition.obj
+         x64\Release\\obj_r\configmanager.obj
+         x64\Release\\obj_r\connection.obj
+         x64\Release\\obj_r\container.obj
+         x64\Release\\obj_r\creature.obj
+         x64\Release\\obj_r\creatureevent.obj
+         x64\Release\\obj_r\cylinder.obj
+         x64\Release\\obj_r\database.obj
+         x64\Release\\obj_r\databasemanager.obj
+         x64\Release\\obj_r\databasetasks.obj
+         x64\Release\\obj_r\depotchest.obj
+         x64\Release\\obj_r\depotlocker.obj
+         x64\Release\\obj_r\events.obj
+         x64\Release\\obj_r\fileloader.obj
+         x64\Release\\obj_r\game.obj
+         x64\Release\\obj_r\globalevent.obj
+         x64\Release\\obj_r\groups.obj
+         x64\Release\\obj_r\guild.obj
+         x64\Release\\obj_r\house.obj
+         x64\Release\\obj_r\housetile.obj
+         x64\Release\\obj_r\inbox.obj
+         x64\Release\\obj_r\ioguild.obj
+         x64\Release\\obj_r\iologindata.obj
+         x64\Release\\obj_r\iomap.obj
+         x64\Release\\obj_r\iomapserialize.obj
+         x64\Release\\obj_r\iomarket.obj
+         x64\Release\\obj_r\item.obj
+         x64\Release\\obj_r\items.obj
+         x64\Release\\obj_r\luascript.obj
+         x64\Release\\obj_r\mailbox.obj
+         x64\Release\\obj_r\map.obj
+         x64\Release\\obj_r\monster.obj
+         x64\Release\\obj_r\monsters.obj
+         x64\Release\\obj_r\mounts.obj
+         x64\Release\\obj_r\movement.obj
+         x64\Release\\obj_r\networkmessage.obj
+         x64\Release\\obj_r\npc.obj
+         x64\Release\\obj_r\otpch.obj
+         x64\Release\\obj_r\otserv.obj
+         x64\Release\\obj_r\outfit.obj
+         x64\Release\\obj_r\outputmessage.obj
+         x64\Release\\obj_r\party.obj
+         x64\Release\\obj_r\player.obj
+         x64\Release\\obj_r\position.obj
+         x64\Release\\obj_r\protocol.obj
+         x64\Release\\obj_r\protocolgame.obj
+         x64\Release\\obj_r\protocollogin.obj
+         x64\Release\\obj_r\protocolold.obj
+         x64\Release\\obj_r\quests.obj
+         x64\Release\\obj_r\raids.obj
+         x64\Release\\obj_r\rsa.obj
+         x64\Release\\obj_r\scheduler.obj
+         x64\Release\\obj_r\scriptmanager.obj
+         x64\Release\\obj_r\server.obj
+         x64\Release\\obj_r\spawn.obj
+         x64\Release\\obj_r\spells.obj
+         x64\Release\\obj_r\protocolstatus.obj
+         x64\Release\\obj_r\talkaction.obj
+         x64\Release\\obj_r\tasks.obj
+         x64\Release\\obj_r\teleport.obj
+         x64\Release\\obj_r\thing.obj
+         x64\Release\\obj_r\tile.obj
+         x64\Release\\obj_r\tools.obj
+         x64\Release\\obj_r\trashholder.obj
+         x64\Release\\obj_r\vocation.obj
+         x64\Release\\obj_r\waitlist.obj
+         x64\Release\\obj_r\weapons.obj
+         x64\Release\\obj_r\wildcardtree.obj
+         Generating code
+         Finished generating code
+         theforgottenserver.vcxproj -> D:\Projetos\Pessoal\HandsofTibia\server\vc12\x64\Release\theforgottenserver.exe
+     1>Done Building Project "D:\Projetos\Pessoal\HandsofTibia\server\vc12\theforgottenserver.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:36.90
