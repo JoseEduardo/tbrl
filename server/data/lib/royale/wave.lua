@@ -1,7 +1,9 @@
 local CONST_WAVE_INTERVAL = 60000
 local CONST_START_DEC_SQM = 1000
 local CONST_DEC_SQM = 200
+local CONST_DAMGE_DANGER_ZONE_TIME = 3000
 local CONST_WAVE_MOVE_MSG = "The poison move in "
+local CONST_DANGET_ZONE_PLAYER_MSG = "You're in the danger zone."
 
 function startFirstWaveArenas()
     local arenaIds = db.storeQuery("SELECT `arena_id`, `frompos_x`, `frompos_y`, `topos_x`, `topos_y` from `royale_arena` where `in_match` = 0 AND `wave_number` <= 0")
@@ -47,20 +49,29 @@ function doProcessWaveMove(params)
 	local safeEndY = (params.endPoint.y + CONST_START_DEC_SQM) > params.toPosY and params.toPosY or params.endPoint.y + CONST_START_DEC_SQM
 	local safeEndPos   = {x= params.endPoint.x + CONST_START_DEC_SQM, y= params.endPoint.y + CONST_START_DEC_SQM, z=0}
 
-	for px=params.startPosX, params.toPosX do
-		for py=params.startPosY, params.toPosY do
-			if not isSafeZone({x=px, y=py, z=7}, safeStartPos, safeEndPos) then
-				Game.createItem(1506, 1, {x=px, y=py, z=0, stackpos=5})
-				Game.createItem(1506, 1, {x=px, y=py, z=1, stackpos=5})
-				Game.createItem(1506, 1, {x=px, y=py, z=2, stackpos=5})
-				Game.createItem(1506, 1, {x=px, y=py, z=3, stackpos=5})
-				Game.createItem(1506, 1, {x=px, y=py, z=4, stackpos=5})
-				Game.createItem(1506, 1, {x=px, y=py, z=5, stackpos=5})
-				Game.createItem(1506, 1, {x=px, y=py, z=6, stackpos=5})
-				Game.createItem(1506, 1, {x=px, y=py, z=7, stackpos=5})
-			end
+	local playerIds = db.storeQuery("SELECT `player_id` from `royale_arena_player` where `arena_id` = " .. params.arenaId .. "")
+    if playerIds ~= false then
+		repeat
+		local playerId = result.getDataInt(playerIds, "player_id")
+		local playerObj = Player(playerId)
+
+		if not isSafeZone(getCreaturePosition(playerObj), safeStartPos, safeEndPos) then
+			playerObj:sendTextMessage(MESSAGE_INFO_DESCR, CONST_DANGET_ZONE_PLAYER_MSG)
+			---REMOVER VIDA
+			addEvent(doCheckDangerZonePlayer, CONST_DAMGE_DANGER_ZONE_TIME, {player=playerObj, safeStartPos=safeStartPos, safeEndPos=safeEndPos})
 		end
+		until not result.next(playerIds)
+		result.free(playerIds)					
+    end
+end
+
+function doCheckDangerZonePlayer(params)
+	local actPos = getCreaturePosition(params.player)
+	if not isSafeZone(actPos, params.safeStartPos, params.safeEndPos) then
+		---REMOVER VIDA
+		params.player:sendTextMessage(MESSAGE_INFO_DESCR, CONST_DANGET_ZONE_PLAYER_MSG)
 	end
+	addEvent(doCheckDangerZonePlayer, CONST_DAMGE_DANGER_ZONE_TIME, params)
 end
 
 function isSafeZone(position, fromPos, toPos)
@@ -69,10 +80,6 @@ function isSafeZone(position, fromPos, toPos)
 			return true
 		end
 	end 
-	if not isWalkable(position) then
-		return true
-	end
-
 	return false
 end
 
@@ -100,4 +107,66 @@ function generateEndPointForMatch(arenaId, fromposX, fromposY, toposX, toposY)
 
   	db.asyncQuery("UPDATE `royale_arena` SET `endpoint_x` = ".. positionToTp.x .. ", `endpoint_y` = " .. positionToTp.y .. " where `arena_id` = " .. arenaId .. "")
   	return positionToTp;
+end
+
+function getDirectionSafeZone(cid)
+	local playerIds = db.storeQuery("SELECT `arena_id` from `royale_arena_player` where `player_id` = " .. cid:getId() .. "")
+    if playerIds == false then
+    	return false
+    end
+	local resultArena = db.storeQuery("SELECT `endpoint_y`, `endpoint_x` from `royale_arena` where `arena_id` = " .. result.getDataInt(playerIds, "arena_id") .. "")
+
+	local playerPos, safePos = getCreaturePosition(cid), {x=result.getDataInt(resultArena, "endpoint_x"), y=result.getDataInt(resultArena, "endpoint_y"), z=7}
+    local px, py = 0, 0
+    local pS = ""
+    local text = ""
+ 
+    if(playerPos.x == safePos.x) and (playerPos.y < safePos.y) then
+        px = 1
+        py = safePos.y - playerPos.y
+        pS = "south"
+    elseif(playerPos.x == safePos.x) and (playerPos.y > safePos.y) then
+        px = 1
+        py = playerPos.y - safePos.y
+        pS = "north"
+    elseif(playerPos.x < safePos.x) and (playerPos.y == safePos.y) then
+        px = safePos.x - playerPos.x
+        py = 1
+        pS = "east"
+    elseif(playerPos.x > safePos.x) and (playerPos.y == safePos.y) then
+        px = playerPos.x - safePos.x
+        py = 1
+        pS = "west"
+    elseif(playerPos.x > safePos.x) and (playerPos.y > safePos.y) then
+        px = playerPos.x - safePos.x
+        py = playerPos.y - safePos.y
+        pS = "north-west"
+    elseif(playerPos.x > safePos.x) and (playerPos.y < safePos.y) then
+        px = playerPos.x - safePos.x
+        py = safePos.y - playerPos.y
+        pS = "south-west"
+    elseif(playerPos.x < safePos.x) and (playerPos.y < safePos.y) then
+        px = safePos.x - playerPos.x
+        py = safePos.y - playerPos.y
+        pS = "south-east"
+    elseif(playerPos.x < safePos.x) and (playerPos.y > safePos.y) then
+        px = safePos.x - playerPos.x
+        ps = playerPos.y - safePos.y
+        pS = "north-east"
+    end
+
+    if(px <= 4 and py <= 4) then
+        text = "Safe Zone is standing next you."
+    elseif((px > 4 and px <= 100) and (py > 4 and py <= 100)) or ((px > 4 and px <= 100) and (py <= 4)) or ((px <= 4) and (py > 4 and py <= 100)) then
+        text = "Safe Zone is to the " .. pS .. "."
+    elseif((px > 100 and px <= 274) and (py > 100 and py <= 274)) or ((px > 100 and px <= 274) and (py <= 100)) or ((px <= 100) and (py > 100 and py <= 274)) then
+        text = "Safe Zone is far to the " .. pS .. "."
+    elseif((px > 274 and px <= 280) and (py > 274 and py <= 280)) or ((px > 274 and px <= 280) and (py < 274)) or ((px < 274) and (py > 274 and py <= 280)) then
+        text = "Safe Zone is very far to the " .. pS .. "."
+    elseif(px > 280 and py > 280) or (px > 280 and py < 280) or (px < 280 and py > 280) then
+        text = "Safe Zone is to the " .. pS .. "."
+    end
+
+    doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, text)
+    return false
 end
