@@ -14,13 +14,13 @@ function installArenasTable()
 
     local resultId = db.storeQuery("SELECT `arena_id` from `royale_arena` where `arena_id` = 1")
     if resultId == false then    
-        db.asyncQuery("INSERT INTO `royale_arena` (`arena_id`, `frompos_x`, `frompos_y`, `frompos_z`, `topos_x`, `topos_y`, `topos_z`, `in_match`, `players_in_arena`, `wave_number`) VALUES ('1', '221', '6142', '7', '700', '6500', '0', '0', '0', '0')")
+        db.asyncQuery("INSERT INTO `royale_arena` (`arena_id`, `frompos_x`, `frompos_y`, `frompos_z`, `topos_x`, `topos_y`, `topos_z`, `in_match`, `players_in_arena`, `wave_number`) VALUES ('1', '220', '6150', '7', '700', '6630', '0', '0', '0', '0')")
     end
 
 end
 
 function findFreeArena()
-    local resultId = db.storeQuery("SELECT `arena_id` from `royale_arena` where `in_match` = 0")
+    local resultId = db.storeQuery("SELECT `arena_id` from `royale_arena` where `in_match` = '0'")
     local arenaId = false
     if resultId ~= false then
 		arenaId = result.getDataInt(resultId, "arena_id")
@@ -36,8 +36,9 @@ function insertPlayerInArena(player, arenaId)
  		local playerInArena = result.getDataInt(resultId, "players_in_arena")
     	db.asyncQuery("UPDATE `royale_arena` SET `players_in_arena`  = ".. playerInArena+1 .. "")
 		result.free(resultId)
-
 		local playerId = player:getId()
+
+    	db.asyncQuery("DELETE FROM `royale_arena_player` where `player_id` = " .. playerId .. "")
 		db.asyncQuery("INSERT INTO `royale_arena_player` (`arena_id` , `player_id`) VALUES ('".. arenaId .."', '".. playerId .."')")
 
 		local playerObj = Player(player)
@@ -48,6 +49,11 @@ function insertPlayerInArena(player, arenaId)
     return arenaId;
 end
 
+function resetAllArena()
+	db.asyncQuery("UPDATE `royale_arena` SET `players_in_arena`  = 0, `in_match` = 0, `wave_number` = 0, `endpoint_x` = 0, `endpoint_y` = 0")
+end
+
+
 function resetArena(arenaId)
 	db.asyncQuery("UPDATE `royale_arena` SET `players_in_arena`  = 0, `in_match` = 0, `wave_number` = 0, `endpoint_x` = 0, `endpoint_y` = 0 where `arena_id` = ".. arenaId .. "")
 end
@@ -57,14 +63,12 @@ function startArenaReadyToStart()
     if arenaIds ~= false then
 		repeat
 			local arenaId = result.getDataInt(arenaIds, "arena_id")
+
+			db.asyncQuery("UPDATE `royale_arena` SET `in_match`  = 1 where `arena_id` = " .. arenaId.. "")
 			preparePlayersFromArena(arenaId, result.getDataInt(arenaIds, "frompos_x"), result.getDataInt(arenaIds, "frompos_y"), result.getDataInt(arenaIds, "topos_x"), result.getDataInt(arenaIds, "topos_y"))
 		until not result.next(arenaIds)
 		result.free(arenaIds)
     end
-end
-
-function canTeleport(positionToTp)
-	return (isWalkable(positionToTp)) and (not getTilePzInfo(positionToTp))
 end
 
 function preparePlayersFromArena(arenaId, fromposX, fromposY, toposX, toposY)
@@ -73,20 +77,21 @@ function preparePlayersFromArena(arenaId, fromposX, fromposY, toposX, toposY)
 		repeat
 			local playerId = result.getDataInt(playerIds, "player_id")
 			local playerObj = Player(playerId)
+			if playerObj ~= nil then
+				local positionToTp ={x=1, y=1, z=7}
+				repeat
+					math.randomseed(os.mtime())
+					local setX = math.random(fromposX, toposX)
+			    	local setY = math.random(fromposY, toposY)
+			    	positionToTp = {x = setX, y = setY, z = 7};
+				until isWalkable(positionToTp) == true
 
-			local positionToTp ={x=1, y=1, z=7}
-			repeat
-				math.randomseed(os.mtime())
-				local setX = math.random(fromposX, toposX)
-		    	local setY = math.random(fromposY, toposY)
-		    	positionToTp = {x = setX, y = setY, z = 7};
-			until canTeleport(positionToTp) == true
-
-			if getPlayerStorageValue(playerObj, CONST_ARENA_IN_BATTLE) ~= 1 then
-				setPlayerStorageValue(playerObj, CONST_ARENA_IN_BATTLE, 1)
-				playerObj:sendTextMessage(MESSAGE_INFO_DESCR, CONST_MESSAGE_GAME_WILL_START)
-				local params = {player = playerObj, pos = positionToTp}
-				addEvent(doTeleportPlayer, CONST_PSEC_WAIT_START, params)
+				if getPlayerStorageValue(playerObj, CONST_ARENA_IN_BATTLE) ~= 1 then
+					setPlayerStorageValue(playerObj, CONST_ARENA_IN_BATTLE, 1)
+					playerObj:sendTextMessage(MESSAGE_INFO_DESCR, CONST_MESSAGE_GAME_WILL_START)
+					local params = {player = playerObj, pos = positionToTp}
+					addEvent(doTeleportPlayer, CONST_PSEC_WAIT_START, params)
+				end
 			end
 		until not result.next(playerIds)
 		result.free(playerIds)					

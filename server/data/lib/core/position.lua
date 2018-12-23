@@ -51,7 +51,7 @@ end
 
 function isInRange(position, fromPosition, toPosition)
     --return (position.x >= fromPosition.x and position.y >= fromPosition.y and position.z >= fromPosition.z and position.x <= toPosition.x and position.y <= toPosition.y and position.z <= toPosition.z)
-    return (position.x >= fromPosition.x and position.y >= fromPosition.y and position.x <= toPosition.x and position.y <= toPosition.y)
+    return (tonumber(position.x) >= tonumber(fromPosition.x) and tonumber(position.y) >= tonumber(fromPosition.y) and tonumber(position.x) <= tonumber(toPosition.x) and tonumber(position.y) <= tonumber(toPosition.y))
 end
 
 function Position.getTile(self)
@@ -72,6 +72,10 @@ function isWalkable(position)
  	end
 
 	if tile:hasFlag(TILESTATE_BLOCKPATH) then
+		return false
+	end
+
+	if tile:hasFlag(TILESTATE_PROTECTIONZONE) then
 		return false
 	end
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="The Judge" script="default.lua" walkinterval="0" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="309" head="19" body="96" legs="21" feet="81" addons="0"/>
+	<parameters>
+		<parameter key="module_shop" value="0"/>
+		<parameter key="shop_buyable" value="backpack,1988,20;pick,2553,10;shovel,2554,20;rope,2120,50"/>
+	</parameters>
+</npc>
