@@ -1,4 +1,5 @@
 function onSay(player, words, param)
+--[[
 	if not player:getGroup():getAccess() then
 		return true
 	end
@@ -6,7 +7,7 @@ function onSay(player, words, param)
 	if player:getAccountType() < ACCOUNT_TYPE_GOD then
 		return false
 	end
-
+]]
 	local split = param:split(",")
 
 	local itemType = ItemType(split[1])

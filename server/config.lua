@@ -3,15 +3,15 @@
 worldType = "pvp"
 hotkeyAimbotEnabled = "yes"
 protectionLevel = 1
-killsToRedSkull = 300
-killsToBlackSkull = 6000
+killsToRedSkull = 60
+killsToBlackSkull = 600000
 pzLocked = 60000
 removeChargesFromRunes = "yes"
 timeToDecreaseFrags = 24 * 60 * 60 * 1000
 whiteSkullTime = 15 * 60 * 1000
 stairJumpExhaustion = 1000
 experienceByKillingPlayers = "yes"
-expFromPlayersLevelRange = 75
+expFromPlayersLevelRange = 1
 
 -- Connection Config
 -- NOTE: maxPlayers set to 0 means no limit

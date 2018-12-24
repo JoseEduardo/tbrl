@@ -128,6 +128,10 @@
 	<action itemid="16014" script="other/food.lua"/>
 	<action itemid="18397" script="other/food.lua"/>
 	<action itemid="19737" script="other/food.lua"/>
+	<action itemid="8587" script="royale/chest.lua"/>
+	<action actionid="7784" script="royale/loot_chest.lua"/>
+	
+	
 	<action fromid="20100" toid="20101" script="other/food.lua"/>
 
 	<!-- Spellbooks -->

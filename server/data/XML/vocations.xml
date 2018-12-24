@@ -10,15 +10,15 @@
 		<skill id="5" multiplier="1.5"/>
 		<skill id="6" multiplier="1.1"/>
 	</vocation>
-	<vocation id="1" clientid="3" name="Sorcerer" description="a sorcerer" gaincap="10" gainhp="5" gainmana="30" gainhpticks="6" gainhpamount="5" gainmanaticks="3" gainmanaamount="5" manamultiplier="1.1" attackspeed="2000" basespeed="220" soulmax="100" gainsoulticks="120" fromvoc="1">
+	<vocation id="1" clientid="3" name="Survivor" description="a survivor" gaincap="30" gainhp="30" gainmana="30" gainhpticks="10" gainhpamount="10" gainmanaticks="10" gainmanaamount="10" manamultiplier="1.1" attackspeed="2000" basespeed="300" soulmax="100" gainsoulticks="120" fromvoc="1">
 		<formula meleeDamage="1.0" distDamage="1.0" defense="1.0" armor="1.0"/>
-		<skill id="0" multiplier="1.5"/>
-		<skill id="1" multiplier="2.0"/>
-		<skill id="2" multiplier="2.0"/>
-		<skill id="3" multiplier="2.0"/>
-		<skill id="4" multiplier="2.0"/>
-		<skill id="5" multiplier="1.5"/>
-		<skill id="6" multiplier="1.1"/>
+		<skill id="0" multiplier="0"/>
+		<skill id="1" multiplier="0"/>
+		<skill id="2" multiplier="0"/>
+		<skill id="3" multiplier="0"/>
+		<skill id="4" multiplier="0"/>
+		<skill id="5" multiplier="0"/>
+		<skill id="6" multiplier="0"/>
 	</vocation>
 	<vocation id="2" clientid="4" name="Druid" description="a druid" gaincap="10" gainhp="5" gainmana="30" gainhpticks="6" gainhpamount="5" gainmanaticks="3" gainmanaamount="5" manamultiplier="1.1" attackspeed="2000" basespeed="220" soulmax="100" gainsoulticks="120" fromvoc="2">
 		<formula meleeDamage="1.0" distDamage="1.0" defense="1.0" armor="1.0"/>

@@ -59,7 +59,6 @@ function doProcessWaveMove(params)
 	local safeEndY = (params.endPoint.y + currDecSqm) > params.toPosY and params.toPosY or tonumber(params.endPoint.y) + currDecSqm
 	safeEndPosClc = {x= params.endPoint.x, y= params.endPoint.y, z=0}
 
-print(safeStartPosClc.x, safeStartPosClc.y, safeEndPosClc.x, safeEndPosClc.y)
 	local playerIds = db.storeQuery("SELECT `player_id` from `royale_arena_player` where `arena_id` = " .. params.arenaId .. "")
     if playerIds ~= false then
 		repeat

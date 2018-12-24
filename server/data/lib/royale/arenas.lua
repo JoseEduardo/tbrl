@@ -1,6 +1,6 @@
 local CONST_ARENA_ID = 9999
 local CONST_ARENA_IN_BATTLE = 9998
-local CONST_PLAYERS_TO_START = 100
+local CONST_PLAYERS_TO_START = 2
 
 local CONST_MESSAGE_ADD_QUEUE = 'You have been added in the queue.'
 local CONST_MESSAGE_GAME_WILL_START = 'Get ready! the game will start in 30 seconds.'
@@ -65,22 +65,24 @@ function startArenaReadyToStart()
 			local arenaId = result.getDataInt(arenaIds, "arena_id")
 
 			db.asyncQuery("UPDATE `royale_arena` SET `in_match`  = 1 where `arena_id` = " .. arenaId.. "")
+			populateLootsToArena(arenaId)
 			preparePlayersFromArena(arenaId, result.getDataInt(arenaIds, "frompos_x"), result.getDataInt(arenaIds, "frompos_y"), result.getDataInt(arenaIds, "topos_x"), result.getDataInt(arenaIds, "topos_y"))
 		until not result.next(arenaIds)
 		result.free(arenaIds)
     end
+    return true
 end
 
 function preparePlayersFromArena(arenaId, fromposX, fromposY, toposX, toposY)
 	local playerIds = db.storeQuery("SELECT `player_id` from `royale_arena_player` where `arena_id` = " .. arenaId .. "")
     if playerIds ~= false then
+		math.randomseed(os.mtime())
 		repeat
 			local playerId = result.getDataInt(playerIds, "player_id")
 			local playerObj = Player(playerId)
 			if playerObj ~= nil then
 				local positionToTp ={x=1, y=1, z=7}
 				repeat
-					math.randomseed(os.mtime())
 					local setX = math.random(fromposX, toposX)
 			    	local setY = math.random(fromposY, toposY)
 			    	positionToTp = {x = setX, y = setY, z = 7};

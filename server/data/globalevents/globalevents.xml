@@ -3,6 +3,9 @@
 	<globalevent type="startup" name="ServerStartup" script="startup.lua"/>
 	<globalevent type="record" name="PlayerRecord" script="record.lua"/>
 	<globalevent name="Server Save" time="09:55:00" script="serversave.lua" />
+	<globalevent name="Start Royale" interval="10000" script="startRoyale.lua" />
+	<globalevent name="Start Wave Royale" interval="13000" script="startWaveRoyale.lua" />
+	
 	<!--
 	<globalevent name="timer_example" time="12:00:00" script="my_script.lua"/>
 	-->

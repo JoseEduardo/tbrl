@@ -1,0 +1,7 @@
+90%  -  WAVE 
+80%  -  ARENAS
+100%  -  CHEST
+100%   -  DIE SYSTEM
+100%   -  VOCATION
+0%   -  ESPECIALIZATION
+0%   -  SQUAD MODE

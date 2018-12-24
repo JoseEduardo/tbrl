@@ -48,6 +48,7 @@
 	<talkaction words="!start" script="start_.lua"/>
 	<talkaction words="!first" script="first_.lua"/>
 	<talkaction words="!safe" script="safe_.lua"/>
+	<talkaction words="!teste" script="teste_.lua"/>
 
 	<!-- test talkactions -->
 	<talkaction words="!z" separator=" " script="magiceffect.lua"/>
