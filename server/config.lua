@@ -21,10 +21,10 @@ loginProtocolPort = 7171
 gameProtocolPort = 7172
 statusProtocolPort = 7171
 maxPlayers = 0
-motd = "Welcome to The Forgotten Server!"
+motd = "Welcome to Tibia Royale!"
 onePlayerOnlinePerAccount = "yes"
 allowClones = "no"
-serverName = "Forgotten"
+serverName = "Tibia Royale"
 statusTimeout = 5000
 replaceKickOnLogin = "yes"
 maxPacketsPerSecond = 25
@@ -74,10 +74,10 @@ classicEquipmentSlots = "no"
 -- Rates
 -- NOTE: rateExp is not used if you have enabled stages in data/XML/stages.xml
 rateExp = 5000
-rateSkill = 300
-rateLoot = 2
-rateMagic = 300
-rateSpawn = 1
+rateSkill = 0
+rateLoot = 0
+rateMagic = 0
+rateSpawn = 0
 
 -- Monsters
 deSpawnRange = 2

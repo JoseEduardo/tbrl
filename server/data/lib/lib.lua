@@ -5,7 +5,9 @@ dofile('data/lib/core/core.lua')
 dofile('data/lib/compat/compat.lua')
 
 -- royale of Tibia
+--dofile('data/lib/royale/const.lua')
 dofile('data/lib/royale/map.lua')
 dofile('data/lib/royale/arenas.lua')
 dofile('data/lib/royale/wave.lua')
 dofile('data/lib/royale/loots.lua')
+dofile('data/lib/royale/infra.lua')

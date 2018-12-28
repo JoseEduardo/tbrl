@@ -177,8 +177,12 @@ function Player:onLoseExperience(exp)
 end
 
 function Player:onGainSkillTries(skill, tries)
+	--NECESSARIO PARA QUE NAO UPE O NIVEL DA SKILL
+	return 0
+--[[
 	if skill == SKILL_MAGLEVEL then
 		return tries * configManager.getNumber(configKeys.RATE_MAGIC)
 	end
 	return tries * configManager.getNumber(configKeys.RATE_SKILL)
+	]]
 end

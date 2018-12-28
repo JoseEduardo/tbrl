@@ -6,12 +6,14 @@ local CONST_CHEST_STARTED_KEY = 9886
 local CONST_ACTION_ID_CHEST_OPEN = 7784
 
 function onUse(player, item, fromPosition, target, toPosition, isHotkey)
-	if getPlayerStorageValue(playerObj, CONST_CHEST_STARTED_KEY) == 1 then
+	if getPlayerStorageValue(player, CONST_CHEST_STARTED_KEY) == 1 then
 		player:sendTextMessage(MESSAGE_STATUS_CONSOLE_RED , "You're already opening a chest.")
-		return 
+		return true 
 	end
-	setPlayerStorageValue(playerObj, CONST_CHEST_KEY, 1)
-	setPlayerStorageValue(playerObj, CONST_CHEST_FAILED_KEY, 0)
+
+	setPlayerStorageValue(player, CONST_CHEST_KEY, 1)
+	setPlayerStorageValue(player, CONST_CHEST_STARTED_KEY, 1)
+	setPlayerStorageValue(player, CONST_CHEST_FAILED_KEY, 0)
 	local posPlayer = player:getPosition()
 
 	for i=1, CONST_TIME_OPEN_SEC do
@@ -23,7 +25,7 @@ end
 
 function sendCountToPlayer(params)
 	local playerObj = params.player
-	if samePosition(playerObj:getPosition(), params.posPlayer) then
+	if samePosition(playerObj:getPosition(), params.posPlayer) and getPlayerStorageValue(playerObj, CONST_CHEST_STARTED_KEY) == 1 then
 		if params.count <= 1 then
 			playerObj:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "It will open in " .. params.count .. " second")
 		else 

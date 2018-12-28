@@ -1,2 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<spawns/>
+<spawns>
+  <spawn centerx="434" centery="6295" centerz="5" radius="5">
+    <npc name="Nicol" x="0" y="-1" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="311" centery="6397" centerz="6" radius="5">
+    <npc name="Nicol" x="1" y="0" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="313" centery="6397" centerz="6" radius="5"/>
+  <spawn centerx="311" centery="6398" centerz="6" radius="5"/>
+  <spawn centerx="309" centery="6399" centerz="6" radius="5"/>
+  <spawn centerx="311" centery="6399" centerz="6" radius="5"/>
+  <spawn centerx="313" centery="6399" centerz="6" radius="5"/>
+  <spawn centerx="310" centery="6400" centerz="6" radius="5"/>
+  <spawn centerx="261" centery="1784" centerz="7" radius="2">
+    <npc name="Shaykie" x="0" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="578" centery="6305" centerz="7" radius="5">
+    <npc name="Nicol" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="433" centery="6325" centerz="7" radius="5">
+    <npc name="Nicol" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="395" centery="6428" centerz="7" radius="5">
+    <npc name="Nicol" x="-1" y="0" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="568" centery="6437" centerz="7" radius="5">
+    <npc name="Nicol" x="0" y="-1" z="7" spawntime="60"/>
+  </spawn>
+</spawns>

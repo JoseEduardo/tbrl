@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Shaykie" script="vocation.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="504"/>
+    <parameters>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="bless;blessings" />
+        <parameter key="keyword_reply1" value="I can grant you blessings such as {distance}, {magic}, {attack} or {defense}. Choose two and ask me." />
+        <parameter key="keyword_reply2" value="I can grant you blessings such as {distance}, {magic}, {attack} or {defense}. Just ask me." />
+    </parameters>
+</npc>

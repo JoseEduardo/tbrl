@@ -6,6 +6,8 @@ local CONST_DEC_SQM = 100
 local CONST_DAMGE_DANGER_ZONE_TIME = 3000
 local CONST_WAVE_MOVE_MSG = "The poison move in "
 local CONST_DANGET_ZONE_PLAYER_MSG = "You're in the danger zone."
+local CONST_ARENA_IN_BATTLE = 9998
+local CONST_ARENA_WAVE_NUM = 9995
 
 function startFirstWaveArenas()
     local arenaIds = db.storeQuery("SELECT `arena_id`, `frompos_x`, `frompos_y`, `topos_x`, `topos_y` from `royale_arena` where `in_match` = 1 AND `wave_number` <= 0")
@@ -59,17 +61,19 @@ function doProcessWaveMove(params)
 	local safeEndY = (params.endPoint.y + currDecSqm) > params.toPosY and params.toPosY or tonumber(params.endPoint.y) + currDecSqm
 	safeEndPosClc = {x= params.endPoint.x, y= params.endPoint.y, z=0}
 
+    db.asyncQuery("UPDATE `royale_arena` SET `wave_number` = ".. params.wave .. " where `arena_id` = " .. params.arenaId .. "")
 	local playerIds = db.storeQuery("SELECT `player_id` from `royale_arena_player` where `arena_id` = " .. params.arenaId .. "")
     if playerIds ~= false then
 		repeat
     		local playerId = result.getDataInt(playerIds, "player_id")
     		local playerObj = Player(playerId)
             if playerObj ~= nil then
-        		if isSafeZone(getCreaturePosition(playerObj), safeStartPosClc, safeEndPosClc) == false then
+        		if isSafeZone(getCreaturePosition(playerObj), safeStartPosClc, safeEndPosClc) == false and getPlayerStorageValue(playerObj, CONST_ARENA_IN_BATTLE) == 1 then
         			playerObj:sendTextMessage(MESSAGE_INFO_DESCR, CONST_DANGET_ZONE_PLAYER_MSG)
         			doTargetCombatHealth(0, playerObj, COMBAT_FIREDAMAGE , -30, -30, CONST_ME_HITBYFIRE)
         		end
-                addEvent(doCheckDangerZonePlayer, CONST_DAMGE_DANGER_ZONE_TIME, {player=playerObj, safeStartPos=safeStartPosClc, safeEndPos=safeEndPosClc})
+                setPlayerStorageValue(playerObj, CONST_ARENA_WAVE_NUM, wave)
+                addEvent(doCheckDangerZonePlayer, CONST_DAMGE_DANGER_ZONE_TIME, {wave=wave, player=playerObj, safeStartPos=safeStartPosClc, safeEndPos=safeEndPosClc})
             end
 		until not result.next(playerIds)
 		result.free(playerIds)					
@@ -77,6 +81,10 @@ function doProcessWaveMove(params)
 end
 
 function doCheckDangerZonePlayer(params)
+    if getPlayerStorageValue(params.player, CONST_ARENA_IN_BATTLE) ~= 1 or getPlayerStorageValue(params.player, CONST_ARENA_WAVE_NUM) ~= params.wave then
+        return true
+    end
+
 	local actPos = getCreaturePosition(params.player)
 	if isSafeZone(actPos, params.safeStartPos, params.safeEndPos) == false then
         doTargetCombatHealth(0, params.player, COMBAT_FIREDAMAGE , -30, -30, CONST_ME_HITBYFIRE)
