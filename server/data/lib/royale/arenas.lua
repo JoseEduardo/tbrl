@@ -6,6 +6,7 @@ local CONST_MESSAGE_GAME_WILL_START = 'Get ready! the game will start in 30 seco
 local CONST_MESSAGE_GAME_START = 'SURVIVE!!!'
 local CONST_PSEC_WAIT_START = 1000
 
+--NECESSARIO FAZER UM STARTUP SEPARADO
 function installArenasTable()
     db.query("CREATE TABLE `royale_arena` ( `arena_id` INT NOT NULL AUTO_INCREMENT , `frompos_x` INT NOT NULL , `frompos_y` INT NOT NULL , `frompos_z` INT NOT NULL , `topos_x` INT NOT NULL , `topos_y` INT NOT NULL , `topos_z` INT NOT NULL , `in_match` INT NOT NULL , `players_in_arena` INT NOT NULL, `wave_number` INT NOT NULL, `endpoint_x` INT, `endpoint_y` INT , PRIMARY KEY (`arena_id`)) ENGINE = InnoDB")
     db.query("CREATE TABLE `royale_arena_player` ( `arena_id` INT NOT NULL , `player_id` INT NOT NULL ) ENGINE = InnoDB")
@@ -15,6 +16,12 @@ function installArenasTable()
         db.asyncQuery("INSERT INTO `royale_arena` (`arena_id`, `frompos_x`, `frompos_y`, `frompos_z`, `topos_x`, `topos_y`, `topos_z`, `in_match`, `players_in_arena`, `wave_number`) VALUES ('1', '220', '6150', '7', '700', '6630', '0', '0', '0', '0')")
     end
 
+end
+
+--NECESSARIO FAZER UM STARTUP SEPARADO
+function clearAllArena()
+	db.asyncQuery("DELETE FROM `royale_arena_player`")
+	db.asyncQuery("UPDATE `royale_arena` SET `players_in_arena`  = 0, `in_match` = 0, `wave_number` = 0, `endpoint_x` = 0, `endpoint_y` = 0")
 end
 
 function findFreeArena()
@@ -37,11 +44,12 @@ function doRemovePlayerFromArena(player)
     local playerInArena = 0
     if resultId ~= false then
  		playerInArena = result.getDataInt(resultId, "players_in_arena")-1
-		db.asyncQuery("UPDATE `royale_arena` SET `players_in_arena`  = ".. playerInArena .. " where `arena_id` = " .. arenaId .. "")
-	end
-
-	if tonumber(playerInArena) <= 1 then
-		addEvent(declareWinner, 1000, {arenaId=arenaId})
+ 		if tonumber(playerInArena) <= 1 then
+			db.asyncQuery("UPDATE `royale_arena` SET `players_in_arena` = 0, `wave_number` = 0, `in_match`= 0 where `arena_id` = " .. arenaId .. "")		
+			addEvent(declareWinner, 1000, {arenaId=arenaId})
+ 		else
+			db.asyncQuery("UPDATE `royale_arena` SET `players_in_arena`  = ".. playerInArena .. " where `arena_id` = " .. arenaId .. "")
+		end
 	end
 end
 
@@ -55,7 +63,7 @@ function declareWinner(params)
 			doResetPlayer(lastPlayer)
 
 			db.asyncQuery("DELETE FROM `royale_arena_player` where `player_id` = " .. lastPlayer:getId() .. " and `arena_id` = " .. arenaId .. "")
-			db.asyncQuery("UPDATE `royale_arena` SET `players_in_arena` = 0, `in_match`= 0 where `arena_id` = " .. arenaId .. "")		
+			db.asyncQuery("UPDATE `royale_arena` SET `players_in_arena` = 0 , `wave_number` = 0, `in_match`= 0 where `arena_id` = " .. arenaId .. "")		
 		end
 	end
 end

@@ -1,8 +1,8 @@
 local CONST_WAVE_INTERVAL = 60000
 local CONST_WAVE_INTERVAL_MSG = 30000
 local CONST_NPC_JUDGE_NAME = "The Judge"
-local CONST_START_DEC_SQM = 400
-local CONST_DEC_SQM = 100
+local CONST_START_DEC_SQM = 300
+local CONST_DEC_SQM = 50
 local CONST_DAMGE_DANGER_ZONE_TIME = 3000
 local CONST_WAVE_MOVE_MSG = "The poison move in "
 local CONST_DANGET_ZONE_PLAYER_MSG = "You're in the danger zone."
@@ -23,7 +23,7 @@ function startFirstWaveArenas()
 			local endPoint = generateEndPointForMatch(arenaId, fromPosX, fromPosY, toPosX, toPosY)
 
     		addEvent(sendMessageToAllPlayerFromArena, 100, {arenaId=arenaId, wave=1, currTime=CONST_WAVE_INTERVAL_MSG/1000}) --WAVE 1
-    		addEvent(doProcessWaveMove, CONST_WAVE_INTERVAL, {arenaId=arenaId, wave=1, endPoint=endPoint, startPosX=fromPosX, startPosY=fromPosY, toPosX=toPosX, toPosY=toPosY}) --WAVE 1
+    		addEvent(doProcessWaveMove, 1000, {arenaId=arenaId, wave=1, endPoint=endPoint, startPosX=fromPosX, startPosY=fromPosY, toPosX=toPosX, toPosY=toPosY}) --WAVE 1
 
     		addEvent(sendMessageToAllPlayerFromArena, (CONST_WAVE_INTERVAL*2)-CONST_WAVE_INTERVAL_MSG, {arenaId=arenaId, wave=2, currTime=CONST_WAVE_INTERVAL_MSG/1000}) --WAVE 2
     		addEvent(doProcessWaveMove, CONST_WAVE_INTERVAL*2, {arenaId=arenaId, wave=2, endPoint=endPoint, startPosX=fromPosX, startPosY=fromPosY, toPosX=toPosX, toPosY=toPosY}) --WAVE 2
@@ -47,6 +47,19 @@ function startFirstWaveArenas()
     return arenaId;
 end
 
+function generateEndPointForMatch(arenaId, fromposX, fromposY, toposX, toposY)
+    local positionToTp ={x=1, y=1, z=7}
+    repeat
+        math.randomseed(os.mtime())
+        positionToTp = {x = math.random(fromposX, toposX), y = math.random(fromposY, toposY), z = 7};
+    until isWalkable(positionToTp) == true
+
+    local npc = Game.createNpc(CONST_NPC_JUDGE_NAME, positionToTp)
+    npc:setMasterPos(positionToTp)
+    db.asyncQuery("UPDATE `royale_arena` SET `endpoint_x` = ".. positionToTp.x .. ", `endpoint_y` = " .. positionToTp.y .. ", `wave_number` = 1 where `arena_id` = " .. arenaId .. "")
+    return positionToTp;
+end
+
 function doProcessWaveMove(params)
     local currDecSqm = 50
     if params.wave ~= 6 then
@@ -68,7 +81,7 @@ function doProcessWaveMove(params)
     		local playerId = result.getDataInt(playerIds, "player_id")
     		local playerObj = Player(playerId)
             if playerObj ~= nil then
-               playerObj:addMapMark(safeEndPosClc, MAPMARK_CROSS, "End Safe Zone Limit")
+               playerObj:addMapMark({x=safeEndPosClc.x,y=safeEndPosClc.y,z=7}, MAPMARK_CROSS, "End Safe Zone Limit")
                playerObj:addMapMark(safeStartPosClc, MAPMARK_EXCLAMATION, "Start Safe Zone Limit")
                playerObj:addMapMark({x=params.endPoint.x,y=params.endPoint.y,z=7}, MAPMARK_STAR, "The Judge")
 
@@ -76,8 +89,8 @@ function doProcessWaveMove(params)
         			playerObj:sendTextMessage(MESSAGE_INFO_DESCR, CONST_DANGET_ZONE_PLAYER_MSG)
         			doTargetCombatHealth(0, playerObj, COMBAT_FIREDAMAGE , -30, -30, CONST_ME_HITBYFIRE)
         		end
-                setPlayerStorageValue(playerObj, CONST_ARENA_WAVE_NUM, wave)
-                addEvent(doCheckDangerZonePlayer, CONST_DAMGE_DANGER_ZONE_TIME, {wave=wave, player=playerObj, safeStartPos=safeStartPosClc, safeEndPos=safeEndPosClc})
+                setPlayerStorageValue(playerObj, CONST_ARENA_WAVE_NUM, params.wave)
+                addEvent(doCheckDangerZonePlayer, CONST_DAMGE_DANGER_ZONE_TIME, {wave=params.wave, player=playerObj, safeStartPos=safeStartPosClc, safeEndPos=safeEndPosClc})
             end
 		until not result.next(playerIds)
 		result.free(playerIds)					
@@ -85,6 +98,10 @@ function doProcessWaveMove(params)
 end
 
 function doCheckDangerZonePlayer(params)
+    if Player(params.player) == nil then
+        return true
+    end
+
     if getPlayerStorageValue(params.player, CONST_ARENA_IN_BATTLE) ~= 1 or getPlayerStorageValue(params.player, CONST_ARENA_WAVE_NUM) ~= params.wave then
         return true
     end
@@ -118,19 +135,6 @@ function sendMessageToAllPlayerFromArena(params)
 		until not result.next(playerIds)
 		result.free(playerIds)					
     end
-end
-
-function generateEndPointForMatch(arenaId, fromposX, fromposY, toposX, toposY)
-	local positionToTp ={x=1, y=1, z=7}
-	repeat
-		math.randomseed(os.mtime())
-    	positionToTp = {x = math.random(fromposX, toposX), y = math.random(fromposY, toposY), z = 7};
-	until isWalkable(positionToTp) == true
-
-    local npc = Game.createNpc(CONST_NPC_JUDGE_NAME, positionToTp)
-    npc:setMasterPos(positionToTp)
-  	db.asyncQuery("UPDATE `royale_arena` SET `endpoint_x` = ".. positionToTp.x .. ", `endpoint_y` = " .. positionToTp.y .. " where `arena_id` = " .. arenaId .. "")
-  	return positionToTp;
 end
 
 function getDirectionSafeZone(cid)

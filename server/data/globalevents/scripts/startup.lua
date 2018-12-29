@@ -35,4 +35,5 @@ function onStartup()
 		result.free(resultId)
 	end
 	installArenasTable()
+	clearAllArena()
 end

@@ -2,7 +2,7 @@
 -- NOTE: valid values for worldType are: "pvp", "no-pvp" and "pvp-enforced"
 worldType = "pvp"
 hotkeyAimbotEnabled = "yes"
-protectionLevel = 1
+protectionLevel = 0
 killsToRedSkull = 60
 killsToBlackSkull = 600000
 pzLocked = 60000
