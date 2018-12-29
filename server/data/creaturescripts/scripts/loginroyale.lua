@@ -10,6 +10,8 @@ function onLogin(player)
 
 	player:setMaxMana(CONST_MAX_MANA)
 	player:setCapacity(CONST_MAX_CAP)
+
+	doResetPlayer(player)
 	player:registerEvent("PlayerDeathRoyale")
 	return true
 end

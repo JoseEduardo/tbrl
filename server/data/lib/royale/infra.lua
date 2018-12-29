@@ -6,6 +6,7 @@ local CONST_BLESS_2 = 6898
 local CONST_MUL_FOR_BLESS1 = 100
 local CONST_MUL_FOR_BLESS2 = 60
 local CONST_ARENA_IN_BATTLE = 9998
+local CONST_ARENA_WAVE_NUM = 9995
 
 local CONST_CHEST_FAILED_KEY = 9887
 local CONST_WINNER_MSG = "You win."
@@ -23,6 +24,7 @@ function doResetPlayer(player)
     setPlayerStorageValue(player, CONST_CHEST_KEY, 1)
     setPlayerStorageValue(player, CONST_CHEST_FAILED_KEY, 0)
     setPlayerStorageValue(player, CONST_ARENA_IN_BATTLE, 0)
+    setPlayerStorageValue(player, CONST_ARENA_WAVE_NUM, 0)
 
     local creature = Creature(player)
     creature:addMana(creature:getMaxMana(), false)

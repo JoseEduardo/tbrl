@@ -59,7 +59,7 @@ function doProcessWaveMove(params)
 
 	local safeEndX = (params.endPoint.x + currDecSqm) > params.toPosX and params.toPosX or tonumber(params.endPoint.x) + currDecSqm
 	local safeEndY = (params.endPoint.y + currDecSqm) > params.toPosY and params.toPosY or tonumber(params.endPoint.y) + currDecSqm
-	safeEndPosClc = {x= params.endPoint.x, y= params.endPoint.y, z=0}
+	safeEndPosClc = {x= safeEndX, y= safeEndY, z=0}
 
     db.asyncQuery("UPDATE `royale_arena` SET `wave_number` = ".. params.wave .. " where `arena_id` = " .. params.arenaId .. "")
 	local playerIds = db.storeQuery("SELECT `player_id` from `royale_arena_player` where `arena_id` = " .. params.arenaId .. "")
@@ -68,6 +68,10 @@ function doProcessWaveMove(params)
     		local playerId = result.getDataInt(playerIds, "player_id")
     		local playerObj = Player(playerId)
             if playerObj ~= nil then
+               playerObj:addMapMark(safeEndPosClc, MAPMARK_CROSS, "End Safe Zone Limit")
+               playerObj:addMapMark(safeStartPosClc, MAPMARK_EXCLAMATION, "Start Safe Zone Limit")
+               playerObj:addMapMark({x=params.endPoint.x,y=params.endPoint.y,z=7}, MAPMARK_STAR, "The Judge")
+
         		if isSafeZone(getCreaturePosition(playerObj), safeStartPosClc, safeEndPosClc) == false and getPlayerStorageValue(playerObj, CONST_ARENA_IN_BATTLE) == 1 then
         			playerObj:sendTextMessage(MESSAGE_INFO_DESCR, CONST_DANGET_ZONE_PLAYER_MSG)
         			doTargetCombatHealth(0, playerObj, COMBAT_FIREDAMAGE , -30, -30, CONST_ME_HITBYFIRE)
